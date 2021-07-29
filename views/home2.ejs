@@ -1,0 +1,27 @@
+<%- include ('partial/header')%>
+<section class="padd-40 fadeIn animated" data-animation="fadeIn">
+  <div class="container">
+    <header>
+      <h2 class="h1">Health Care Essentials</h2>
+      <a class="avs_hdr_sid_btn" href="#">View All</a> </header>
+    <div class="sldr_row_2 nv_btn owl-carousel">
+      <%  for (i=0; i< best_Sldr.length; i++){ %>
+      <div class="item">
+        <div class="avs_vt_prdt_set "> <img class="avs_vt_prdt_img" src="<%= best_Sldr[i].imageUrls[2].url %>">
+          <div class="avs_vt_prdt_rht">
+            <div class="avs_vt_prdt_rht_h1"><%= best_Sldr[i].name %></div>
+            <div class="avs_vt_prdt_rht_h3"><%= best_Sldr[i].description %></div>
+            <div class="avs_vt_prdt_rht_btm">
+              <div class="avs_vt_prdt_rht_prc"><%= best_Sldr[i].title %></div>
+              <a class="avs_vt_prdt_rht_btn" href="<%= best_Sldr[i].url %>">
+              <div class="hid">Buy Now</div>
+              <i class="ec ec-add-to-cart"></i></a> </div>
+          </div>
+        </div>
+      </div>
+
+      <%  } %>
+    
+    </div>
+  </div>
+</section>

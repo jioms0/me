@@ -1,0 +1,16 @@
+  const myData = function(hData) {
+        home_data= hData;
+         console.log(home_data);
+         return home_data;
+       }
+    axios.get("https://affiliate-api.flipkart.net/affiliate/offers/v1/all/json",options)
+    .then(function(response) { 
+        const hData = response.data.allOffersList;
+        return hData;
+        
+    })
+    
+    .catch(function(error){
+        console.log(error)
+    })
+    .then(myData);
