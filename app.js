@@ -14,8 +14,8 @@ var options = {
     headers:
     {
        
-        'Fk-Affiliate-Token': '37aab18a3e8e48da95f50ee7e1a6d951',
-        'Fk-Affiliate-Id': 'prasanta13',
+        'Fk-Affiliate-Token': 'bd6298b80c164655bf12a15d405cf09f',
+        'Fk-Affiliate-Id': 'onlinesho41',
         'Access-Control-Allow-Origin':'*',
         "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
     }
