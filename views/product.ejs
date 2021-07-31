@@ -1,0 +1,51 @@
+
+<%- include ('partial/header')%>
+
+
+<div class="mdl_sec">
+<div class="container">
+<div class="row prdt_set_row  de4_mb2_out" style="margin-Bottom:100px">
+			
+	<%		for(i=0; i < pr_data.length; i++){ %>
+			
+                <div class="col-md-3" >
+                    <a href="<%= pr_data[i].productBaseInfoV1.productUrl%>" target="_blank">
+                        <div class="avs_vt_prdt_set prdt_list">
+                            <img src="<%= pr_data[i].productBaseInfoV1.imageUrls["200x200"]%>" class="avs_vt_prdt_img" alt="Flpicon"/>
+
+
+                            <div class="avs_vt_prdt_rht">
+                                <div class="avs_vt_prdt_rht_h3"><%= pr_data[i].productBaseInfoV1.productBrand%></div>
+                                <div class="avs_vt_prdt_rht_h1"><%= pr_data[i].productBaseInfoV1.title%>=|=<%= pr_data[i].productBaseInfoV1.discountPercentage%></div>
+
+                                <div class="avs_vt_prdt_rht_btm">
+                                    <div class="avs_vt_prdt_rht_prc">₹  <%= pr_data[i].productBaseInfoV1.flipkartSpecialPrice.amount%> <span style="font-Size:14px; text-Decoration:line-through; display:inline; margin-Left:7px; color:#bbb">₹  <%= pr_data[i].productBaseInfoV1.maximumRetailPrice.amount%></span> </div>
+
+                                    <a href="<%= pr_data[i].productBaseInfoV1.productUrl%>" class="avs_vt_prdt_rht_btn">
+                                        <div class="hid">Buy Now</div>
+                                        <i class="fal fa-cart-plus"></i></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+          
+            
+          <%    } %>
+
+
+
+</div>
+</div>
+</div>
+
+
+<%- include ('partial/footer') %>
+
+
+
+
+
+
+
