@@ -91,7 +91,7 @@ app.get(/.*category*/, function(req, res){
     
     
 
-res.send("oo"+urlpg);
+
       (async() => {
         const asyncExample = async() => {
           let data1, data2;
