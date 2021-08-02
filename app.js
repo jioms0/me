@@ -92,6 +92,28 @@ app.get(/.*category*/, function(req, res){
     
 
 res.send(urlpg);
+      (async() => {
+        const asyncExample = async() => {
+          let data1, data2;
+          try {
+            data1 = await axios.get("https://affiliate-api.flipkart.net/affiliate/api/onlinesho41.json",options);
+            data2 = await axios.get(urlpg,options);
+        } catch (err) {
+            console.log(err);
+          }
+          return [data1, data2];
+        };
+      
+        //Save response on a variable
+       const globalData = await asyncExample();
+
+       menu_data= globalData[0].data.apiGroups.affiliate.apiListings;
+       prdt_data= globalData[1].data.products;
+
+
+  
+ //  res.render("product", {menu_dat: menu_data, pr_data: prdt_data})       
+})();
 
 });
 
