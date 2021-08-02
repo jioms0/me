@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "web": "node app.js",
+    "start": "node app.js"
+
   },
   "engines": {
     "node": "16.4.0"
