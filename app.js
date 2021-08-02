@@ -5,8 +5,10 @@ const bodyparser = require('body-parser');
 const request = require('request');
 const { response } = require('express');
 app.use(bodyparser.urlencoded({extended:true}));
-// var port = process.env.PORT || 8080;
-app.set( 'port', ( process.env.PORT || 5000 ));
+var port = process.env.PORT || 8080;
+
+
+//app.set( 'port', ( process.env.PORT || 5000 ));
 
 
 app.use(express.static(__dirname + "/public"));
@@ -120,8 +122,8 @@ app.get(/.*category*/, function(req, res){
 
 
 
-app.listen( app.get( 'port' ), function() {
-  console.log( 'Node server is running on port ' + app.get( 'port' ));
-  });
+//app.listen( app.get( 'port' ), function() {
+//  console.log( 'Node server is running on port ' + app.get( 'port' ));
+//  });
 
-// app.listen(port, function(){console.log("server running on port 8080")});
+ app.listen(port, function(){console.log("server running on port 8080")});
