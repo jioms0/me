@@ -108,7 +108,7 @@ app.get(/.*category*/, function(req, res){
        const globalData = await asyncExample();
 
        menu_data= globalData[0].data.apiGroups.affiliate.apiListings;
-       prdt_data= JSON.parse(globalData[1].data.products);
+       prdt_data= JSON.parse(JSON.stringify(globalData[1].data.products));
 
  console.log("------------------------------- menu ---------------------"+ menu_data); 
    console.log("------------------------------- product ---------------------"+ prdt_data); 
