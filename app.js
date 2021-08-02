@@ -112,7 +112,7 @@ app.get(/.*category*/, function(req, res){
 
  console.log("------------------------------- menu ---------------------"+ menu_data); 
    console.log("------------------------------- product ---------------------"+ prdt_data); 
-          res.render("product", {menu_dat: menu_data, pr_data: []});
+          res.render("product", {menu_dat: menu_data});
  //  res.render("product", {menu_dat: menu_data, pr_data: prdt_data})       
 })();
 
