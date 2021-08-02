@@ -5,7 +5,7 @@ const bodyparser = require('body-parser');
 const request = require('request');
 const { response } = require('express');
 app.use(bodyparser.urlencoded({extended:true}));
-var port = process.env.PORT || 8080;
+// var port = process.env.PORT || 8080;
 app.use(express.static(__dirname + "/public"));
 app.set('view engine', 'ejs');
 var koki=[];
@@ -117,6 +117,9 @@ app.get(/.*category*/, function(req, res){
 
 
 
+const server = app.listen(process.env.PORT || 5000, () => {
+  const port = server.address().port;
+  console.log(`Express is working on port ${port}`);
+});
 
-
-app.listen(port, function(){console.log("server running on port 8080")});
+// app.listen(port, function(){console.log("server running on port 8080")});
