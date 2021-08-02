@@ -110,8 +110,8 @@ res.send("oo"+urlpg);
        menu_data= globalData[0].data.apiGroups.affiliate.apiListings;
        prdt_data= globalData[1].data.products;
 
-
-  
+ console.log("------------------------------- menu ---------------------"+ menu_data); 
+   console.log("------------------------------- product ---------------------"+ prdt_data); 
  //  res.render("product", {menu_dat: menu_data, pr_data: prdt_data})       
 })();
 
