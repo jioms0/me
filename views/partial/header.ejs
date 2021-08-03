@@ -37,98 +37,33 @@
   
   <header id="masthead" class="site-header header-v1">
     <div class="container">
-      <div class="row"> 
-        
-        <!-- ============================================================= Header Logo ============================================================= -->
-        
-        <div class="header-logo"> <a href="/" class="header-logo-link" > <img src="/images/logo.png" class="img-responsive"> </a> </div>
-        <!-- ============================================================= Header Logo : End============================================================= -->
-        
-        <div class="avs_tp_amz_sec mnu_sec">
+      <div class="row">
+      <div class="header-logo">
+        <div class="header-logo-link">
+          <a href="/"><img src="/images/logo.png" class="img-responsive" alt=" "> </a></div></div>
+        <div class="avs_tp_amz_sec mnu_sec" style="display: none;">
           <div class="avs_tp_amz_btn"><img src="/images/amz_icon.jpg">
-            <div class="avs_tp_amz_btn_txt">Shop by
-              <div class="avs_tp_amz_btn_txt2">Amazon</div>
-            </div>
-            <i class="fal fa-arrow-down"></i> </div>
-          <div class="avs_tp_big_mnu" >
-            <div class="avs_tp_big_mnu_lid hdr">Amazon</div>
-            <a class="avs_tp_big_mnu_lid lin">1Television</a> <a class="avs_tp_big_mnu_lid lin">2Television</a> <a class="avs_tp_big_mnu_lid lin">3Television</a> <a class="avs_tp_big_mnu_lid lin">Television</a> <a class="avs_tp_big_mnu_lid lin">Television</a> <a class="avs_tp_big_mnu_lid lin">Television</a> <a class="avs_tp_big_mnu_lid lin">Television</a> <a class="avs_tp_big_mnu_lid lin">Television</a> <a class="avs_tp_big_mnu_lid lin">Television</a> <a class="avs_tp_big_mnu_lid lin">Television</a>
-            <div class="avs_tp_big_mnu_lid hdr">Electronics</div>
-            <div class="avs_tp_big_mnu_lid lin">Television</div>
-            <div class="avs_tp_big_mnu_lid lin">Television</div>
-            <div class="avs_tp_big_mnu_lid lin">Television</div>
-            <div class="avs_tp_big_mnu_lid lin">Television</div>
-            <div class="avs_tp_big_mnu_lid lin">Television</div>
-            <div class="avs_tp_big_mnu_lid hdr">Electronics</div>
-            <div class="avs_tp_big_mnu_lid lin">Television</div>
-            <div class="avs_tp_big_mnu_lid lin">Television</div>
-            <div class="avs_tp_big_mnu_lid lin">Television</div>
-            <div class="avs_tp_big_mnu_lid lin">Television</div>
-            <div class="avs_tp_big_mnu_lid lin">Television</div>
-            <div class="avs_tp_big_mnu_lid lin">Television</div>
-            <div class="avs_tp_big_mnu_lid lin">Television</div>
-            <div class="avs_tp_big_mnu_lid lin">Television</div>
-            <div class="avs_tp_big_mnu_lid lin">Television</div>
-            <div class="avs_tp_big_mnu_lid lin">Television</div>
-            <div class="avs_tp_big_mnu_lid hdr">Electronics</div>
-            <div class="avs_tp_big_mnu_lid lin">Television</div>
-            <div class="avs_tp_big_mnu_lid lin">Television</div>
-            <div class="avs_tp_big_mnu_lid lin">Television</div>
-            <div class="avs_tp_big_mnu_lid lin">Television</div>
-            <div class="avs_tp_big_mnu_lid lin">Television</div>
-          </div>
-        </div>
-        <div class="avs_tp_flp_sec">
-          <div class="avs_tp_flp_btn"><img src="/images/flp_icon.png">
-            <div class="avs_tp_flp_btn_txt">Shop by
-              <div class="avs_tp_amz_btn_txt2">Flipkart</div>
-            </div>
-            <i class="fal fa-arrow-down "></i> </div>
-        </div>
-        <ul class="avs_tp_mnu_lst flp_sec_mnu">
-          <li class="avs_tp_mnu mnu_sec"><i class="far fa-print"></i>
-            <div class="avs_tp_mnu_rht">
-              <div class="avs_tp_mnu_rht_h1">Flipkart</div>
-              Electronics</div>
-            <i class="fal fa-plus ar_ico"></i>
-            <div class="avs_tp_big_mnu" >
-           
-  <% Object.keys(menu_dat).forEach(function(apiCat, index) { %>
+            <div class="avs_tp_amz_btn_txt">Shop by<div class="avs_tp_amz_btn_txt2">Amazon</div>
+          </div><i class="fal fa-arrow-down"></i></div>
+          <div class="avs_tp_big_mnu">
+            <div class="avs_tp_big_mnu_lid hdr">Amazon</div><a class="avs_tp_big_mnu_lid lin">1Television</a> <a class="avs_tp_big_mnu_lid lin">2Television</a> <a class="avs_tp_big_mnu_lid lin">3Television</a> <a class="avs_tp_big_mnu_lid lin">Television</a> <a class="avs_tp_big_mnu_lid lin">Television</a> <a class="avs_tp_big_mnu_lid lin">Television</a> <a class="avs_tp_big_mnu_lid lin">Television</a> <a class="avs_tp_big_mnu_lid lin">Television</a> <a class="avs_tp_big_mnu_lid lin">Television</a> <a class="avs_tp_big_mnu_lid lin">Television</a><div class="avs_tp_big_mnu_lid hdr">Electronics</div><div class="avs_tp_big_mnu_lid lin">Television</div><div class="avs_tp_big_mnu_lid lin">Television</div><div class="avs_tp_big_mnu_lid lin">Television</div><div class="avs_tp_big_mnu_lid lin">Television</div><div class="avs_tp_big_mnu_lid lin">Television</div><div class="avs_tp_big_mnu_lid hdr">Electronics</div><div class="avs_tp_big_mnu_lid lin">Television</div><div class="avs_tp_big_mnu_lid lin">Television</div><div class="avs_tp_big_mnu_lid lin">Television</div><div class="avs_tp_big_mnu_lid lin">Television</div><div class="avs_tp_big_mnu_lid lin">Television</div><div class="avs_tp_big_mnu_lid lin">Television</div><div class="avs_tp_big_mnu_lid lin">Television</div><div class="avs_tp_big_mnu_lid lin">Television</div><div class="avs_tp_big_mnu_lid lin">Television</div><div class="avs_tp_big_mnu_lid lin">Television</div><div class="avs_tp_big_mnu_lid hdr">Electronics</div><div class="avs_tp_big_mnu_lid lin">Television</div><div class="avs_tp_big_mnu_lid lin">Television</div><div class="avs_tp_big_mnu_lid lin">Television</div><div class="avs_tp_big_mnu_lid lin">Television</div><div class="avs_tp_big_mnu_lid lin">Television</div></div></div>
+            <div class="avs_tp_flp_sec">
+              <div class="avs_tp_flp_btn"><img src="/images/flp_icon.png">
+                <div class="avs_tp_flp_btn_txt">Shop by<div class="avs_tp_amz_btn_txt2">Flipkart</div></div>
+                <i class="fal fa-arrow-down"></i></div>
+                <div class="avs_tp_srch_set"><input type="text" id="flp_search_bx" placeholder="i wanna buy...." class="avs_tp_srch_txtbx">
+                  <a href="" class="avs_tp_srch_btn ld"><i class="fal fa-search"></i></a></div>
+                  <div class="avs_tp_big_mnu">
+                    <% Object.keys(menu_dat).forEach(function(apiCat, index) { %>
    
 
-    <a href="<%= menu_dat[apiCat].availableVariants["v1.1.0"].get.split("https://affiliate-api.flipkart.net")[1].replace(/\?/g, "%3F") %>" class="avs_tp_big_mnu_lid lin"><%= menu_dat[apiCat].apiName.replace(/_/gi, ' ') %></a>
-      
-
-
-        <% }); %>
-
-         
-             
-            </div>
-          </li>
-          <li class="avs_tp_mnu mnu_sec"><i class="far fa-television"></i>
-            <div class="avs_tp_mnu_rht">
-              <div class="avs_tp_mnu_rht_h1">Flipkart</div>
-              Tv's &amp; Appliances</div>
-          </li>
-          <li class="avs_tp_mnu mnu_sec"><i class="far fa-male"></i>
-            <div class="avs_tp_mnu_rht">
-              <div class="avs_tp_mnu_rht_h1">Flipkart</div>
-              Men's</div>
-          </li>
-          <li class="avs_tp_mnu mnu_sec"><i class="far fa-female"></i>
-            <div class="avs_tp_mnu_rht">
-              <div class="avs_tp_mnu_rht_h1">Flipkart</div>
-              Women's</div>
-          </li>
-          <li class="avs_tp_mnu mnu_sec"><i class="far fa-chair"></i>
-            <div class="avs_tp_mnu_rht">
-              <div class="avs_tp_mnu_rht_h1">Flipkart</div>
-              Furniture</div>
-          </li>
-        </ul>
-      </div>
-      <!-- /.row --> 
-      
-    </div>
-  </header>
+                      <a href="<%= menu_dat[apiCat].availableVariants["v1.1.0"].get.split("https://affiliate-api.flipkart.net")[1].replace(/\?/g, "%3F") %>" class="avs_tp_big_mnu_lid lin ld"><%= menu_dat[apiCat].apiName.replace(/_/gi, ' ') %></a>
+                        
+                  
+                  
+                          <% }); %>
+                </div>
+                </div>
+                </div>
+                </div>
+              </header>
