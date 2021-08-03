@@ -2,8 +2,10 @@
     "use strict"; 
     var arrowWidth = 16;
   
+   
     $(".ld").click(function(){
-        $("body").append('<div class="load_set"><img src="/images/loading.gif" class="ld_img"></div>')
+        $("body").append('<div class="load_set"><img src="/images/loading.gif" class="ld_img"></div>');
+        window.stop();
     });
    
    	$(".avs_tp_srch_txtbx").keyup(function(){
