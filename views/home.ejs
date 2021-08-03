@@ -65,7 +65,8 @@
         <%  for (i=0; i< home_Sldr.length; i++){ %>
 
         <div class="item">
-          <div class="avs_vt_prdt_set "> <img class="avs_vt_prdt_img" src="<%= home_Sldr[i].imageUrls[2].url %>">
+          <div class="avs_vt_prdt_set "> 
+            <img class="avs_vt_prdt_img" src="<%= home_Sldr[i].imageUrls[2].url %>">
             <div class="avs_vt_prdt_rht">
               <div class="avs_vt_prdt_rht_h1"><%= home_Sldr[i].name %></div>
               <div class="avs_vt_prdt_rht_h3"><%= home_Sldr[i].description %></div>
@@ -100,98 +101,29 @@
       <header>
         <h2 class="h1">Health Care Essentials</h2>
         <a class="avs_hdr_sid_btn" href="#">View All</a> </header>
-      <div class="sldr_row_2 nv_btn owl-carousel">
-        <div class="item">
-          <div class="avs_vt_prdt_set "> <img class="avs_vt_prdt_img" src="images/prtwr (1).jpeg">
-            <div class="avs_vt_prdt_rht">
-              <div class="avs_vt_prdt_rht_h1">Oppo Reno 10x Zoom</div>
-              <div class="avs_vt_prdt_rht_h3">5000mAh Battery</div>
-              <div class="avs_vt_prdt_rht_btm">
-                <div class="avs_vt_prdt_rht_prc">₹	35,689</div>
-                <a class="avs_vt_prdt_rht_btn">
-                <div class="hid">Buy Now</div>
-                <i class="ec ec-add-to-cart"></i></a> </div>
+      <div class="mbl_row nv_btn owl-carousel">
+      
+        <%  mbl_Sldr.forEach(function(mblsdr){ %>
+
+          <div class="item">
+            <div class="avs_vt_prdt_set "> 
+              <img class="avs_vt_prdt_img" src="<%= mblsdr.productBaseInfoV1.imageUrls['200x200'] %>">
+              <div class="avs_vt_prdt_rht">
+                <div class="avs_vt_prdt_rht_h1"><%= mblsdr.productBaseInfoV1.title %></div>
+                <div class="avs_vt_prdt_rht_h3"><%= mblsdr.productBaseInfoV1.productBrand %></div>
+                <div class="avs_vt_prdt_rht_btm">
+                  <div class="avs_vt_prdt_rht_prc" style="font-size: 15px;">Rs. <%= mblsdr.productBaseInfoV1.flipkartSpecialPrice.amount %></div>
+                  <a class="avs_vt_prdt_rht_btn" href="<%= mblsdr.productBaseInfoV1.productUrl %>">
+                  <div class="hid">Buy Now</div>
+                  <i class="ec ec-add-to-cart"></i></a> </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="item">
-          <div class="avs_vt_prdt_set "> <img class="avs_vt_prdt_img" src="images/prtwr (2).jpeg">
-            <div class="avs_vt_prdt_rht">
-              <div class="avs_vt_prdt_rht_h1">Oppo Reno 10x Zoom</div>
-              <div class="avs_vt_prdt_rht_h3">5000mAh Battery</div>
-              <div class="avs_vt_prdt_rht_btm">
-                <div class="avs_vt_prdt_rht_prc">₹	35,689</div>
-                <a class="avs_vt_prdt_rht_btn">
-                <div class="hid">Buy Now</div>
-                <i class="ec ec-add-to-cart"></i></a> </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="avs_vt_prdt_set "> <img class="avs_vt_prdt_img" src="images/prtwr (3).jpeg">
-            <div class="avs_vt_prdt_rht">
-              <div class="avs_vt_prdt_rht_h1">Oppo Reno 10x Zoom</div>
-              <div class="avs_vt_prdt_rht_h3">5000mAh Battery</div>
-              <div class="avs_vt_prdt_rht_btm">
-                <div class="avs_vt_prdt_rht_prc">₹	35,689</div>
-                <a class="avs_vt_prdt_rht_btn">
-                <div class="hid">Buy Now</div>
-                <i class="ec ec-add-to-cart"></i></a> </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="avs_vt_prdt_set "> <img class="avs_vt_prdt_img" src="images/prtwr (4).jpeg">
-            <div class="avs_vt_prdt_rht">
-              <div class="avs_vt_prdt_rht_h1">Oppo Reno 10x Zoom</div>
-              <div class="avs_vt_prdt_rht_h3">5000mAh Battery</div>
-              <div class="avs_vt_prdt_rht_btm">
-                <div class="avs_vt_prdt_rht_prc">₹	35,689</div>
-                <a class="avs_vt_prdt_rht_btn">
-                <div class="hid">Buy Now</div>
-                <i class="ec ec-add-to-cart"></i></a> </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="avs_vt_prdt_set "> <img class="avs_vt_prdt_img" src="images/prtwr (2).jpeg">
-            <div class="avs_vt_prdt_rht">
-              <div class="avs_vt_prdt_rht_h1">Oppo Reno 10x Zoom</div>
-              <div class="avs_vt_prdt_rht_h3">5000mAh Battery</div>
-              <div class="avs_vt_prdt_rht_btm">
-                <div class="avs_vt_prdt_rht_prc">₹	35,689</div>
-                <a class="avs_vt_prdt_rht_btn">
-                <div class="hid">Buy Now</div>
-                <i class="ec ec-add-to-cart"></i></a> </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="avs_vt_prdt_set "> <img class="avs_vt_prdt_img" src="images/phn (1).jpeg">
-            <div class="avs_vt_prdt_rht">
-              <div class="avs_vt_prdt_rht_h1">Oppo Reno 10x Zoom</div>
-              <div class="avs_vt_prdt_rht_h3">5000mAh Battery</div>
-              <div class="avs_vt_prdt_rht_btm">
-                <div class="avs_vt_prdt_rht_prc">₹	35,689</div>
-                <a class="avs_vt_prdt_rht_btn">
-                <div class="hid">Buy Now</div>
-                <i class="ec ec-add-to-cart"></i></a> </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="avs_vt_prdt_set "> <img class="avs_vt_prdt_img" src="images/phn (1).jpeg">
-            <div class="avs_vt_prdt_rht">
-              <div class="avs_vt_prdt_rht_h1">Oppo Reno 10x Zoom</div>
-              <div class="avs_vt_prdt_rht_h3">5000mAh Battery</div>
-              <div class="avs_vt_prdt_rht_btm">
-                <div class="avs_vt_prdt_rht_prc">₹	35,689</div>
-                <a class="avs_vt_prdt_rht_btn">
-                <div class="hid">Buy Now</div>
-                <i class="ec ec-add-to-cart"></i></a> </div>
-            </div>
-          </div>
-        </div>
+          <%  }) %>
+
+
+
+
       </div>
     </div>
   </section>
@@ -201,67 +133,29 @@
         <h2 class="h1">Best Sellers</h2>
         <a class="avs_hdr_sid_btn" href="#">View All</a> </header>
       <div id="home-v1-product-cards-careousel">
+
+
+        <%  today_offer.forEach(function(tod_sdr){ %>
+          <a href="<%= tod_sdr.url %>">
         <div class="avs_hs_prdt_fst_set">
-          <div class="avs_hs_prdt_set "> <img class="avs_hs_prdt_img" src="images/phn (1).jpeg">
+          <div class="avs_hs_prdt_set "> <img class="avs_hs_prdt_img" src="<%= tod_sdr.imageUrls[2].url %>">
             <div class="avs_hs_prdt_rht">
-              <div class="avs_hs_prdt_rht_h2">Phone</div>
-              <div class="avs_hs_prdt_rht_h1">Oppo Reno 10x Zoom</div>
-              <div class="avs_hs_prdt_rht_h3">5000mAh Battery</div>
+              <div class="avs_hs_prdt_rht_h2"><%= tod_sdr.title %></div>
+              <div class="avs_hs_prdt_rht_h1"><%= tod_sdr.name %></div>
+              <div class="avs_hs_prdt_rht_h3"><%= tod_sdr.description %></div>
               <div class="avs_hs_prdt_rht_btm">
-                <div class="avs_hs_prdt_rht_prc">₹	35,689</div>
-                <a class="avs_hs_prdt_rht_btn">Buy Now <i class="ec ec-add-to-cart"></i></a> </div>
+             
+                <a href="<%= tod_sdr.url %>" class="avs_hs_prdt_rht_btn">Buy Now <i class="ec ec-add-to-cart"></i></a>
+               </div>
             </div>
           </div>
-          <div class="avs_hs_prdt_set "> <img class="avs_hs_prdt_img" src="images/comp (1).jpeg">
-            <div class="avs_hs_prdt_rht">
-              <div class="avs_hs_prdt_rht_h2">Laptop</div>
-              <div class="avs_hs_prdt_rht_h1">Oppo Reno 10x Zoom</div>
-              <div class="avs_hs_prdt_rht_h3">5000mAh Battery</div>
-              <div class="avs_hs_prdt_rht_btm">
-                <div class="avs_hs_prdt_rht_prc">₹	35,689</div>
-                <a class="avs_hs_prdt_rht_btn">Buy Now <i class="ec ec-add-to-cart"></i></a> </div>
-            </div>
           </div>
-          <div class="avs_hs_prdt_set "> <img class="avs_hs_prdt_img" src="images/comp (3).jpeg">
-            <div class="avs_hs_prdt_rht">
-              <div class="avs_hs_prdt_rht_h2">Computer</div>
-              <div class="avs_hs_prdt_rht_h1">Oppo Reno 10x Zoom</div>
-              <div class="avs_hs_prdt_rht_h3">5000mAh Battery</div>
-              <div class="avs_hs_prdt_rht_btm">
-                <div class="avs_hs_prdt_rht_prc">₹	35,689</div>
-                <a class="avs_hs_prdt_rht_btn">Buy Now <i class="ec ec-add-to-cart"></i></a> </div>
-            </div>
-          </div>
-          <div class="avs_hs_prdt_set "> <img class="avs_hs_prdt_img" src="images/aud (3).jpeg">
-            <div class="avs_hs_prdt_rht">
-              <div class="avs_hs_prdt_rht_h2">Theramal Meter</div>
-              <div class="avs_hs_prdt_rht_h1">Oppo Reno 10x Zoom</div>
-              <div class="avs_hs_prdt_rht_h3">5000mAh Battery</div>
-              <div class="avs_hs_prdt_rht_btm">
-                <div class="avs_hs_prdt_rht_prc">₹	35,689</div>
-                <a class="avs_hs_prdt_rht_btn">Buy Now <i class="ec ec-add-to-cart"></i></a> </div>
-            </div>
-          </div>
-          <div class="avs_hs_prdt_set "> <img class="avs_hs_prdt_img" src="images/aud (4).jpeg">
-            <div class="avs_hs_prdt_rht">
-              <div class="avs_hs_prdt_rht_h2">Protective Wear</div>
-              <div class="avs_hs_prdt_rht_h1">Oppo Reno 10x Zoom</div>
-              <div class="avs_hs_prdt_rht_h3">5000mAh Battery</div>
-              <div class="avs_hs_prdt_rht_btm">
-                <div class="avs_hs_prdt_rht_prc">₹	35,689</div>
-                <a class="avs_hs_prdt_rht_btn">Buy Now <i class="ec ec-add-to-cart"></i></a> </div>
-            </div>
-          </div>
-          <div class="avs_hs_prdt_set "> <img class="avs_hs_prdt_img" src="images/aud (2).jpeg">
-            <div class="avs_hs_prdt_rht">
-              <div class="avs_hs_prdt_rht_h2">Audio Accessories</div>
-              <div class="avs_hs_prdt_rht_h1">Oppo Reno 10x Zoom</div>
-              <div class="avs_hs_prdt_rht_h3">1000watt</div>
-              <div class="avs_hs_prdt_rht_btm">
-                <div class="avs_hs_prdt_rht_prc">₹	35,689</div>
-                <a class="avs_hs_prdt_rht_btn">Buy Now <i class="ec ec-add-to-cart"></i></a> </div>
-            </div>
-          </div>
+        </a>
+<% }) %>
+
+
+
+
         </div>
       </div>
       <!-- #home-v1-product-cards-careousel --> 
