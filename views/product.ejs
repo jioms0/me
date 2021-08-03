@@ -4,6 +4,7 @@
 
 <div class="mdl_sec">
 <div class="container">
+<div class="mdl_sec_cnt">
 <div class="row prdt_set_row  de4_mb2_out" style="margin-Bottom:100px">
 			
 	<%		for(i=0; i < pr_data.length; i++){ %>
@@ -16,11 +17,14 @@
 
                             <div class="avs_vt_prdt_rht">
                                 <div class="avs_vt_prdt_rht_h3"><%= pr_data[i].productBaseInfoV1.productBrand%></div>
-                                <div class="avs_vt_prdt_rht_h1"><%= pr_data[i].productBaseInfoV1.title%>=|=<%= pr_data[i].productBaseInfoV1.discountPercentage%></div>
+                                <div class="avs_vt_prdt_rht_h1"><%= pr_data[i].productBaseInfoV1.title%></div>
 
                                 <div class="avs_vt_prdt_rht_btm">
-                                    <div class="avs_vt_prdt_rht_prc">₹  <%= pr_data[i].productBaseInfoV1.flipkartSpecialPrice.amount%> <span style="font-Size:14px; text-Decoration:line-through; display:inline; margin-Left:7px; color:#bbb">₹  <%= pr_data[i].productBaseInfoV1.maximumRetailPrice.amount%></span> </div>
-
+                                    <div class="avs_vt_prdt_rht_prc">₹  <%= pr_data[i].productBaseInfoV1.flipkartSpecialPrice.amount%>
+                                        <% if(pr_data[i].productBaseInfoV1.discountPercentage !== 90) {%>
+                                        <span style="font-Size:14px; text-Decoration:line-through; display:inline; margin-Left:7px; color:#bbb">₹  <%= pr_data[i].productBaseInfoV1.maximumRetailPrice.amount%></span>
+<% } %>
+</div>
                                     <a href="<%= pr_data[i].productBaseInfoV1.productUrl%>" class="avs_vt_prdt_rht_btn">
                                         <div class="hid">Buy Now</div>
                                         <i class="fal fa-cart-plus"></i></a>
@@ -36,6 +40,7 @@
 
 
 
+</div>
 </div>
 </div>
 </div>
