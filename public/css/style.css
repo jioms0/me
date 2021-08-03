@@ -11998,8 +11998,8 @@ body .avs_tp_big_mnu {
 
 @media(min-width:600px){
   .avs_tp_srch_btn{
-    margin-left:-10px
-
+    padding: 19px 0px !important;
+    text-align: center !important;
   }
 }
 @media(max-width:600px){
