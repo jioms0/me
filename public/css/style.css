@@ -12038,4 +12038,9 @@ body .avs_tp_big_mnu {
 #menu-top-bar-right{
 display:none}}
 #menu-top-bar-right{
-visiblity:hidden}
+opacity:0 !important;
+}
+
+body .avs_vt_prdt_img {
+    padding: 10px !important;
+}
