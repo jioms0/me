@@ -10567,7 +10567,7 @@ color:#fff
 
 	body .nv_btn .owl-nav {
 		position: absolute !important;
-		right:100px;
+		right:0px;
 		top:-68px;
 	}
 }
