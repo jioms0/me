@@ -12031,3 +12031,11 @@ body .avs_tp_big_mnu {
   height:100vh;
  object-fit: contain;
 }
+
+
+@media(max-width:700px){
+
+#menu-top-bar-right{
+display:none}}
+#menu-top-bar-right{
+visiblity:hidden}
