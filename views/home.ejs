@@ -62,7 +62,7 @@
         <h2 class="h1">Today Deals</h2>
          </header>
       <div class="mbl_row nv_btn owl-carousel">
-        <%  for (i=0; i< home_Sldr.length; i++){ %>
+        <%  for (i=0; i< 6; i++){ %>
 
         <div class="item">
           <div class="avs_vt_prdt_set "> 
@@ -99,7 +99,7 @@
   <section class="padd-40 fadeIn animated" data-animation="fadeIn">
     <div class="container">
       <header>
-        <h2 class="h1">Mobiles</h2>
+        <h2 class="h1">Furniture</h2>
       </header>
       <div class="mbl_row nv_btn owl-carousel">
       
@@ -134,18 +134,18 @@
        </header>
       <div id="home-v1-product-cards-careousel">
 
-
-        <%  today_offer.forEach(function(tod_sdr){ %>
-          <a href="<%= tod_sdr.url %>">
+   <%  for (i=6; i< today_offer.length; i++){ %>
+     
+          <a href="<%= today_offer[i].url %>">
         <div class="avs_hs_prdt_fst_set">
-          <div class="avs_hs_prdt_set "> <img class="avs_hs_prdt_img" src="<%= tod_sdr.imageUrls[2].url %>">
+          <div class="avs_hs_prdt_set "> <img class="avs_hs_prdt_img" src="<%= today_offer[i].imageUrls[2].url %>">
             <div class="avs_hs_prdt_rht">
-              <div class="avs_hs_prdt_rht_h2"><%= tod_sdr.title %></div>
-              <div class="avs_hs_prdt_rht_h1"><%= tod_sdr.name %></div>
-              <div class="avs_hs_prdt_rht_h3"><%= tod_sdr.description %></div>
+              <div class="avs_hs_prdt_rht_h2"><%= today_offer[i].title %></div>
+              <div class="avs_hs_prdt_rht_h1"><%= today_offer[i].name %></div>
+              <div class="avs_hs_prdt_rht_h3"><%= today_offer[i].description %></div>
               <div class="avs_hs_prdt_rht_btm">
              
-                <a href="<%= tod_sdr.url %>" class="avs_hs_prdt_rht_btn">Buy Now <i class="ec ec-add-to-cart"></i></a>
+                <a href="<%= today_offer[i].url %>" class="avs_hs_prdt_rht_btn">Buy Now <i class="ec ec-add-to-cart"></i></a>
                </div>
             </div>
           </div>
