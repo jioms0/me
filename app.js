@@ -36,13 +36,13 @@ app.get("/", function(req, res){
           try {
             data1 = await axios.get("https://affiliate-api.flipkart.net/affiliate/api/onlinesho41.json",options);
             data2 = await axios.get("https://affiliate-api.flipkart.net/affiliate/offers/v1/all/json",options);
-            data3 = await axios.get(data1.data.apiGroups.affiliate.apiListings.mobiles.availableVariants["v1.1.0"].get, options);
-            data4 = await axios.get("https://affiliate-api.flipkart.net/affiliate/offers/v1/dotd/json", options);
+            data3 = await axios.get(data1.data.apiGroups.affiliate.apiListings.furniture.availableVariants["v1.1.0"].get, options);
+          //  data4 = await axios.get("https://affiliate-api.flipkart.net/affiliate/offers/v1/dotd/json", options);
            
         } catch (err) {
             console.log(err);
           }
-          return [data1, data2, data3, data4];
+          return [data1, data2, data3];
         };
       
         //Save response on a variable
@@ -51,7 +51,7 @@ app.get("/", function(req, res){
        menu_data= globalData[0].data.apiGroups.affiliate.apiListings;
        home_data= globalData[1].data.allOffersList;
        mbl_data= globalData[2].data.products;
-today_off=  globalData[3].data.dotdList;
+today_off=   globalData[1].data.allOffersList;
     
     // res.send(".........................."+mbl_data);
 
