@@ -63,7 +63,6 @@
          </header>
       <div class="mbl_row nv_btn owl-carousel">
         <%  for (i=0; i< 6; i++){ %>
-
         <div class="item">
           <div class="avs_vt_prdt_set "> 
             <img class="avs_vt_prdt_img" src="<%= home_Sldr[i].imageUrls[2].url %>">
@@ -104,7 +103,6 @@
       <div class="mbl_row nv_btn owl-carousel">
       
         <%  mbl_Sldr.forEach(function(mblsdr){ %>
-
           <div class="item">
             <div class="avs_vt_prdt_set "> 
               <img class="avs_vt_prdt_img" src="<%= mblsdr.productBaseInfoV1.imageUrls['200x200'] %>">
@@ -133,25 +131,25 @@
         <h2 class="h1">Best Sellers</h2>
        </header>
       <div id="home-v1-product-cards-careousel">
-
-   <%  for (i=6; i< today_offer.length; i++){ %>
+<% console.log(today_offer.length) %>
+   <%  for (j=6; j< today_offer.length; j++){ %>
      
-          <a href="<%= today_offer[i].url %>">
+          <a href="<%= today_offer[j].url %>">
         <div class="avs_hs_prdt_fst_set">
-          <div class="avs_hs_prdt_set "> <img class="avs_hs_prdt_img" src="<%= today_offer[i].imageUrls[2].url %>">
+          <div class="avs_hs_prdt_set "> <img class="avs_hs_prdt_img" src="<%= today_offer[j].imageUrls[2].url %>">
             <div class="avs_hs_prdt_rht">
-              <div class="avs_hs_prdt_rht_h2"><%= today_offer[i].title %></div>
-              <div class="avs_hs_prdt_rht_h1"><%= today_offer[i].name %></div>
-              <div class="avs_hs_prdt_rht_h3"><%= today_offer[i].description %></div>
+              <div class="avs_hs_prdt_rht_h2"><%= today_offer[j].title %></div>
+              <div class="avs_hs_prdt_rht_h1"><%= today_offer[j].name %></div>
+              <div class="avs_hs_prdt_rht_h3"><%= today_offer[j].description %></div>
               <div class="avs_hs_prdt_rht_btm">
              
-                <a href="<%= today_offer[i].url %>" class="avs_hs_prdt_rht_btn">Buy Now <i class="ec ec-add-to-cart"></i></a>
+                <a href="<%= today_offer[j].url %>" class="avs_hs_prdt_rht_btn">Buy Now <i class="ec ec-add-to-cart"></i></a>
                </div>
             </div>
           </div>
           </div>
         </a>
-<% }) %>
+<% } %>
 
 
 
