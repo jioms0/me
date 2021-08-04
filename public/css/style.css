@@ -10860,7 +10860,7 @@ box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.42);
             background-color: #fff;
             padding: 15px;
             border-bottom: none;
-            max-height: calc(100vh - 180px);
+            max-height: calc(100vh - 150px);
             overflow-y: auto;
 }
 					.flp_sec_mnu{
