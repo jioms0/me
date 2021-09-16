@@ -71,7 +71,7 @@
               <div class="avs_vt_prdt_rht_h3"><%= home_Sldr[i].description %></div>
               <div class="avs_vt_prdt_rht_btm">
                 <div class="avs_vt_prdt_rht_prc" style="font-size: 13px;"><%= home_Sldr[i].title %></div>
-                <a class="avs_vt_prdt_rht_btn" href="<%= home_Sldr[i].url %>">
+                <a class="avs_vt_prdt_rht_btn" href="<%= home_Sldr[i].url %>" target="_blank">
                 <div class="hid">Buy Now</div>
                 <i class="ec ec-add-to-cart"></i></a> </div>
             </div>
@@ -111,7 +111,7 @@
                 <div class="avs_vt_prdt_rht_h3"><%= mblsdr.productBaseInfoV1.productBrand %></div>
                 <div class="avs_vt_prdt_rht_btm">
                   <div class="avs_vt_prdt_rht_prc" style="font-size: 15px;">Rs. <%= mblsdr.productBaseInfoV1.flipkartSpecialPrice.amount %></div>
-                  <a class="avs_vt_prdt_rht_btn" href="<%= mblsdr.productBaseInfoV1.productUrl %>">
+                  <a class="avs_vt_prdt_rht_btn" href="<%= mblsdr.productBaseInfoV1.productUrl %>" target="_blank">
                   <div class="hid">Buy Now</div>
                   <i class="ec ec-add-to-cart"></i></a> </div>
               </div>
@@ -134,7 +134,7 @@
 <% console.log(today_offer.length) %>
    <%  for (j=6; j< today_offer.length; j++){ %>
      
-          <a href="<%= today_offer[j].url %>">
+          <a href="<%= today_offer[j].url %>" target="_blank">
         <div class="avs_hs_prdt_fst_set">
           <div class="avs_hs_prdt_set "> <img class="avs_hs_prdt_img" src="<%= today_offer[j].imageUrls[2].url %>">
             <div class="avs_hs_prdt_rht">
@@ -143,7 +143,7 @@
               <div class="avs_hs_prdt_rht_h3"><%= today_offer[j].description %></div>
               <div class="avs_hs_prdt_rht_btm">
              
-                <a href="<%= today_offer[j].url %>" class="avs_hs_prdt_rht_btn">Buy Now <i class="ec ec-add-to-cart"></i></a>
+                <a href="<%= today_offer[j].url %>" class="avs_hs_prdt_rht_btn" target="_blank">Buy Now <i class="ec ec-add-to-cart"></i></a>
                </div>
             </div>
           </div>
