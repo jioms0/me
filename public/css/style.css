@@ -12044,3 +12044,18 @@ opacity:0 !important;
 body .avs_vt_prdt_img {
     padding: 10px !important;
 }
+
+.msgg{
+  display:block;
+  width:100%;
+  position: absolute;
+  top:40px;
+  text-align: center;
+}
+.pg_e_btn{
+  display: block;
+  position: absolute;
+  bottom:20px;
+  width:calc(100% - 30px);
+  border-radius: 5px;
+}
