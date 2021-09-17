@@ -14,10 +14,33 @@
 <link rel="stylesheet" type="text/css" href="/css/colors/blue.css"/>
 <link rel="stylesheet" type="text/css" href="/css/all.min.css"/>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,700italic,800,800italic,600italic,400italic,300italic" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="/images/favicon.ico">
+<link rel="shortcut icon" href="/images/fav-icon.png">
 </head>
 
 <body class="page home page-template-default">
+  <style>
+   
+    .loading_set{
+        display:block;
+        width:100vw;
+        height: 100vh;
+        position: fixed;
+        z-index: 99999;
+        left:0px;
+        top:0px;
+        background-color: #fff;
+    }
+    .loading_set img{
+        display:block;
+        width:100%;
+        height: 100vh;
+      object-fit: contain;
+    }
+    .loadedw{
+        display: none !important;
+    }
+                </style>
+                 <div id="ldw" class="loading_set"><img src="/images/loading.gif"></div>
 <div id="page" class="hfeed site">
   <div class="top-bar">
     <div class="container">
@@ -40,7 +63,7 @@
       <div class="row">
       <div class="header-logo">
         <div class="header-logo-link">
-          <a href="/"><img src="/images/logo.png" class="img-responsive ld" alt=" "> </a></div></div>
+          <a href="/"><img src="/images/logo.png" class="img-responsive" alt=" "> </a></div></div>
         <div class="avs_tp_amz_sec mnu_sec" style="display: none;">
           <div class="avs_tp_amz_btn"><img src="/images/amz_icon.jpg">
             <div class="avs_tp_amz_btn_txt">Shop by<div class="avs_tp_amz_btn_txt2">Amazon</div>
