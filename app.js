@@ -112,7 +112,7 @@ app.get(/.*category*/, function(req, res){
        const globalData = await asyncExample();
 
        menu_data= globalData[0].data.apiGroups.affiliate.apiListings;
-       prdt_data= globalData[1].data.products;
+       prdt_data= globalData[1].data;
 
 
   
@@ -153,7 +153,7 @@ app.get(/.*search*/, function(req, res){
      const globalData = await asyncExample();
 
      menu_data= globalData[0].data.apiGroups.affiliate.apiListings;
-     prdt_data= globalData[1].data.products;
+     prdt_data= globalData[1].data;
 
 
 
