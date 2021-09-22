@@ -1,8 +1,54 @@
 (function($, window){
     "use strict"; 
     var arrowWidth = 16;
+    var scount=0, ecount=0;
+    $(window).load(function(){
+        var total_data = $(".page_datas").text();
+        total_data = JSON.parse(total_data);
+
+ var addcount = 52;
+ scount = ecount;
+ ecount = ecount+addcount;
+        var data1 = total_data.splice(scount,ecount);
+ 
+ data1.forEach(function(datas) {
+     var dataset = '<div class="col-md-3" > <a href="'+datas.productBaseInfoV1.productUrl+'" target="_blank"><div class="avs_vt_prdt_set prdt_list"> <img src="'+datas.productBaseInfoV1.imageUrls['200x200']+'" class="avs_vt_prdt_img" alt="Flpicon"/><div class="avs_vt_prdt_rht"><div class="avs_vt_prdt_rht_h3">'+datas.productBaseInfoV1.productBrand+'</div><div class="avs_vt_prdt_rht_h1">'+datas.productBaseInfoV1.title+'</div><div class="avs_vt_prdt_rht_btm"><div class="avs_vt_prdt_rht_prc">₹ '+datas.productBaseInfoV1.flipkartSpecialPrice.amount+' <span style="font-Size:14px; text-Decoration:line-through; display:inline; margin-Left:7px; color:#bbb">₹ '+datas.productBaseInfoV1.maximumRetailPrice.amount+'</span></div> <a href="'+datas.productBaseInfoV1.productUrl+'" class="avs_vt_prdt_rht_btn"><div class="hid">Buy Now</div> <i class="fal fa-cart-plus"></i></a></div></div></div> </a></div>'; 
+ 
+ $(".inrpg").append(dataset);
+ });
+
+$(".mr_btn").hide();
+});
+    $(".nxtpg").click(function(){
+       var total_data = $(".page_datas").text();
+       total_data = JSON.parse(total_data);
+if(ecount <= total_data.length){
+var addcount = 52;
+scount = ecount;
+ecount = ecount+addcount;
+       var data1 = total_data.splice(scount,ecount);
+
+data1.forEach(function(datas) {
+    var dataset = '<div class="col-md-3" > <a href="'+datas.productBaseInfoV1.productUrl+'" target="_blank"><div class="avs_vt_prdt_set prdt_list"> <img src="'+datas.productBaseInfoV1.imageUrls['200x200']+'" class="avs_vt_prdt_img" alt="Flpicon"/><div class="avs_vt_prdt_rht"><div class="avs_vt_prdt_rht_h3">'+datas.productBaseInfoV1.productBrand+'</div><div class="avs_vt_prdt_rht_h1">'+datas.productBaseInfoV1.title+'</div><div class="avs_vt_prdt_rht_btm"><div class="avs_vt_prdt_rht_prc">₹ '+datas.productBaseInfoV1.flipkartSpecialPrice.amount+' <span style="font-Size:14px; text-Decoration:line-through; display:inline; margin-Left:7px; color:#bbb">₹ '+datas.productBaseInfoV1.maximumRetailPrice.amount+'</span></div> <a href="'+datas.productBaseInfoV1.productUrl+'" class="avs_vt_prdt_rht_btn"><div class="hid">Buy Now</div> <i class="fal fa-cart-plus"></i></a></div></div></div> </a></div>'; 
+
+$(".inrpg").append(dataset);
+});
+ alert("------start: "+scount+ "------end: "+ecount);
+
+}
+else{
+    $(".nxtpg").hide();
+    $(".mr_btn").show();
+    alert("product over");
+}
+});
+
+
+
+
+
+      
   
-   
     $(".ld").click(function(){
         $("body").append('<div class="load_set"><img src="/images/loading.gif" class="ld_img"></div>');
         window.stop();
