@@ -5,38 +5,23 @@
 <div class="container">
 <div class="mdl_sec_cnt" style="position: relative;">
 <div class="row prdt_set_row  de4_mb2_out" style="margin-Bottom:100px">
-   
+    <% var kdata = 1222 %>
+  
 	<% if(pr_data.products === "" ){ %>
 <h3>No Data Found</h3>
 
 	<% }  else { %>
 	
-	<%		pr_data.products.forEach(pdata => { %>
-			
-                <div class="col-md-3" >
-                    <a href="<%= pdata.productBaseInfoV1.productUrl%>" target="_blank">
-                        <div class="avs_vt_prdt_set prdt_list">
-                            <img src="<%= pdata.productBaseInfoV1.imageUrls["200x200"]%>" class="avs_vt_prdt_img" alt="Flpicon"/>
-                            <div class="avs_vt_prdt_rht">
-                                <div class="avs_vt_prdt_rht_h3"><%= pdata.productBaseInfoV1.productBrand%></div>
-                                <div class="avs_vt_prdt_rht_h1"><%= pdata.productBaseInfoV1.title%></div>
-                                <div class="avs_vt_prdt_rht_btm">
-                                    <div class="avs_vt_prdt_rht_prc">₹  <%= pdata.productBaseInfoV1.flipkartSpecialPrice.amount%>
-                                        <% if(pdata.productBaseInfoV1.discountPercentage !== 90) {%>
-                                        <span style="font-Size:14px; text-Decoration:line-through; display:inline; margin-Left:7px; color:#bbb">₹  <%= pdata.productBaseInfoV1.maximumRetailPrice.amount%></span>
-<% } %>
-</div>
-                                    <a href="<%= pdata.productBaseInfoV1.productUrl%>" class="avs_vt_prdt_rht_btn">
-                                        <div class="hid">Buy Now</div>
-                                        <i class="fal fa-cart-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-          
-            
-          <%    }) %>
+	<%		var orgdata = JSON.stringify(pr_data.products); var p_f, p_t; var spdata = pr_data.products;  %>
+
+   
+
+
+<p class="page_datas" style="display: none;"><%= orgdata  %></p>
+<div class="inrpg"></div>
+<div class="nxtpg btn btn-lg pg_e_btn" >View More</div>
+
+
           <%		} %>
         
 
@@ -47,14 +32,14 @@
     <h3 class="msgg">No Products Found</h3><br><br>
     <a class="btn btn-lg pg_e_btn" href="/">Go Home</a>
     
-        <%		} 	else if(pr_data.products.length > 490){%>
+        <%		} 	else if(pr_data.products.length > 449){%>
   <% var resilink = pr_data.nextUrl.split("https://affiliate-api.flipkart.net")[1].replace(/\?/g, "%3F")   %>
-<a class="btn btn-lg pg_e_btn" href="<%= resilink   %>">View More</a>
+<a class="btn btn-lg pg_e_btn mr_btn ld" href="<%= resilink   %>">Next Page</a>
 <p style="display: none;"><%= pr_data.nextUrl %></p>
 
 
 <%		} else{%>
-    <a class="btn btn-lg pg_e_btn" href="/">Go Home</a>
+    <a class="btn btn-lg pg_e_btn ld" href="/">Go Home</a>
 <%		} %>
 </div>
 </div>
