@@ -33,7 +33,7 @@ data1.forEach(function(datas) {
 
 $(".inrpg").append(dataset);
 });
- alert("------start: "+scount+ "------end: "+ecount);
+ //alert("------start: "+scount+ "------end: "+ecount);
 
 }
 else{
