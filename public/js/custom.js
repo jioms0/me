@@ -6,7 +6,7 @@
         var total_data = $(".page_datas").text();
         total_data = JSON.parse(total_data);
 
- var addcount = 52;
+ var addcount = 32;
  scount = ecount;
  ecount = ecount+addcount;
         var data1 = total_data.splice(scount,ecount);
