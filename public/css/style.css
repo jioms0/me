@@ -11055,7 +11055,7 @@ box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.13);
 			  .prdt_set_row .avs_vt_prdt_rht_h1 { font-size:14px;}
 			   .prdt_set_row .avs_vt_prdt_rht_h3 { font-size:12px;}
 			   .prdt_set_row .avs_vt_prdt_rht_prc { font-size: 16px;}
-			    .prdt_set_row > div{
+			    .prdt_set_row > .col-md-3{
 			   padding: 0px 7px;
     width: 50%;
     display: inline-block;
