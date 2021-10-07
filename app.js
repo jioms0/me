@@ -28,6 +28,8 @@ var options = {
 };
 
 
+var whlmenudata;
+
 setInterval(function(){ 
 (async()=>{
   
@@ -68,6 +70,13 @@ console.log(tim.getDate()," : ",tim.getHours()," : ", tim.getMinutes()," : ", ti
     console.log(".........completed.................");
 })();
 
+
+
+whlmenudata = JSON.parse(fs.readFileSync('menudata.json', 'utf8'));
+
+
+
+
 }, 60000);
 
 
@@ -77,7 +86,7 @@ console.log(tim.getDate()," : ",tim.getHours()," : ", tim.getMinutes()," : ", ti
 
 
 app.get("/", function(req, res){
-  menu_data = JSON.parse(fs.readFileSync('menudata.json', 'utf8'));
+  menu_data = whlmenudata;
   home_data = JSON.parse(fs.readFileSync('offerhome.json', 'utf8'));
   mbl_data = JSON.parse(fs.readFileSync('productdata.json', 'utf8'));
   today_off = JSON.parse(fs.readFileSync('offerhome.json', 'utf8'));
@@ -128,7 +137,7 @@ app.get(/.*category*/, function(req, res){
       
         //Save response on a variable
        const globalData = await asyncExample();
-       menu_data = JSON.parse(fs.readFileSync('menudata.json', 'utf8'));
+      menu_data = whlmenudata;
      //  menu_data= globalData[0].data.apiGroups.affiliate.apiListings;
        prdt_data= globalData[1].data;
 
@@ -169,7 +178,7 @@ app.get(/.*search*/, function(req, res){
     
       //Save response on a variable
      const globalData = await asyncExample();
-     menu_data = JSON.parse(fs.readFileSync('menudata.json', 'utf8'));
+    menu_data = whlmenudata;
     // menu_data= globalData[0].data.apiGroups.affiliate.apiListings;
      prdt_data= globalData[1].data;
 
