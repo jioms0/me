@@ -11,6 +11,7 @@ var port = process.env.PORT || 8080;
 app.use(express.static(__dirname + "/public"));
 app.set('view engine', 'ejs');
 var koki=[];
+var k="";
 var home_data=[];
 var menu_data=[];
 var prdt_data=[];
