@@ -77,7 +77,7 @@ whlmenudata = JSON.parse(fs.readFileSync('menudata.json', 'utf8'));
 
 
 
-}, 60000);
+}, 600000);
 
 
 
