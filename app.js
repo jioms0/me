@@ -72,7 +72,7 @@ console.log(tim.getDate()," : ",tim.getHours()," : ", tim.getMinutes()," : ", ti
 
 
 
-whlmenudata = JSON.parse(fs.readFileSync('menudata.json', 'utf8'));
+
 
 
 
@@ -80,9 +80,9 @@ whlmenudata = JSON.parse(fs.readFileSync('menudata.json', 'utf8'));
 }, 600000);
 
 
-
-
-
+setInterval(function(){ 
+whlmenudata = JSON.parse(fs.readFileSync('menudata.json', 'utf8'));
+}, 60000);
 
 
 app.get("/", function(req, res){
