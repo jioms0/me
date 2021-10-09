@@ -11,7 +11,6 @@ var port = process.env.PORT || 8080;
 app.use(express.static(__dirname + "/public"));
 app.set('view engine', 'ejs');
 var koki=[];
-var k="";
 var home_data=[];
 var menu_data=[];
 var prdt_data=[];
@@ -78,12 +77,85 @@ console.log(tim.getDate()," : ",tim.getHours()," : ", tim.getMinutes()," : ", ti
 
 
 
-}, 600000);
+}, 3500000);
 
+
+
+whlmenudata = JSON.parse(fs.readFileSync('menudata.json', 'utf8'));
+console.log("______________________________________________________loading __________________________________________________________");
 
 setInterval(function(){ 
-whlmenudata = JSON.parse(fs.readFileSync('menudata.json', 'utf8'));
-}, 60000);
+
+
+  console.log("..............................start ........................");
+
+ 
+
+
+
+  
+
+
+
+
+
+
+ var menu_dat = JSON.parse(fs.readFileSync('menudata.json', 'utf8'));
+  Object.keys(menu_dat).forEach(function(apiCat, index) { 
+    
+    var ul =  menu_dat[apiCat].availableVariants["v1.1.0"].get;
+
+
+
+   axios.get(ul, options).then(function(res){
+  
+    var datasmenu1 = JSON.stringify(res.data);
+    console.log(ul,".................................",datasmenu1);
+  
+    var flname = __dirname+"/datas/"+apiCat+".json";
+       fs.writeFile(flname, datasmenu1, function(err){
+         if (err) throw err;
+  console.log(flname,"----*********************************************************saved");
+       });
+  
+  
+   }).catch(function(err){console.log(err)});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  });
+
+     
+
+}, 3600000);
+
+
+
+
+
+
+
+
+
+
+
 
 
 app.get("/", function(req, res){
@@ -113,6 +185,24 @@ app.get("/", function(req, res){
 });
 
 
+
+app.get(/.*product*/, function(req, res){
+
+    var urlpg= req.originalUrl.split("/product/")[1];
+    urlpg = __dirname+"/datas/"+urlpg+".json";
+    console.log("-------------------------------ok ---------------------"+ urlpg); 
+    
+    menu_data = whlmenudata;
+
+    prdt_data = JSON.parse(fs.readFileSync(urlpg, 'utf8'));
+
+  console.log(req.originalUrl,",,,,,,,,,,,,,,,,");
+
+  
+   res.render("product", {menu_dat: menu_data, pr_data: prdt_data});       
+
+
+});
 
 app.get(/.*category*/, function(req, res){
 
