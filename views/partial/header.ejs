@@ -80,7 +80,7 @@
                     <% Object.keys(menu_dat).forEach(function(apiCat, index) { %>
    
 
-                      <a href="<%= menu_dat[apiCat].availableVariants["v1.1.0"].get.split("https://affiliate-api.flipkart.net")[1].replace(/\?/g, "%3F") %>" class="avs_tp_big_mnu_lid lin ld"><%= menu_dat[apiCat].apiName.replace(/_/gi, ' ') %></a>
+                      <a href="/product/<%= menu_dat[apiCat].apiName %>" class="avs_tp_big_mnu_lid lin ld"><%= menu_dat[apiCat].apiName.replace(/_/gi, ' ') %></a>
                         
                   
                   
