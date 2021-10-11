@@ -144,7 +144,7 @@ setInterval(function(){
 
      
 
-}, 180000);
+}, 3600000);
 
 
 
