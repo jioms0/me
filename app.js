@@ -82,69 +82,6 @@ console.log(tim.getDate()," : ",tim.getHours()," : ", tim.getMinutes()," : ", ti
 
 
 whlmenudata = JSON.parse(fs.readFileSync('menudata.json', 'utf8'));
-console.log("______________________________________________________loading __________________________________________________________");
-
-setInterval(function(){ 
-
-
-  console.log("..............................start ........................");
-
- 
-
-
-
-  
-
-
-
-
-
-
- var menu_dat = JSON.parse(fs.readFileSync('menudata.json', 'utf8'));
-  Object.keys(menu_dat).forEach(function(apiCat, index) { 
-    
-    var ul =  menu_dat[apiCat].availableVariants["v1.1.0"].get;
-
-
-
-   axios.get(ul, options).then(function(res){
-  
-    var datasmenu1 = JSON.stringify(res.data);
-    console.log(ul,".................................",datasmenu1);
-  
-    var flname = __dirname+"/datas/"+apiCat+".json";
-       fs.writeFile(flname, datasmenu1, function(err){
-         if (err) throw err;
-  console.log(flname,"----*********************************************************saved");
-       });
-  
-  
-   }).catch(function(err){console.log(err)});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  });
-
-     
-
-}, 600000);
 
 
 
@@ -197,9 +134,10 @@ app.get(/.*product*/, function(req, res){
     prdt_data = JSON.parse(fs.readFileSync(urlpg, 'utf8'));
 
   console.log(req.originalUrl,",,,,,,,,,,,,,,,,");
+  console.log("OOOOOOOOOOOOOOOOOOOOO",menudetails.jewellery);
 
   
-   res.render("product", {menu_dat: menu_data, pr_data: prdt_data});       
+   res.render("product", {menu_dat: menu_data, pr_data: menudetails.jewellery});       
 
 
 });
