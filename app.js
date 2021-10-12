@@ -77,7 +77,7 @@ console.log(tim.getDate()," : ",tim.getHours()," : ", tim.getMinutes()," : ", ti
 
 
 
-}, 350000);
+}, 120000);
 
 
 
