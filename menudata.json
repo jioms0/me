@@ -1,1 +1,756 @@
-{"food_nutrition":{"availableVariants":{"v1.1.0":{"resourceName":"food_nutrition","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/7jv.json?expiresAt=1634049351927&sig=66d9a2b98df15d22f34b7fec750e9ca2","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/7jv.json?expiresAt=1634049351927&sig=66d9a2b98df15d22f34b7fec750e9ca2","delete":null}},"apiName":"food_nutrition"},"televisions":{"availableVariants":{"v1.1.0":{"resourceName":"televisions","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/ckf-czl.json?expiresAt=1634049351926&sig=8abdecae33b0f1c00bdd1bb08e63d8b4","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/ckf-czl.json?expiresAt=1634049351926&sig=8abdecae33b0f1c00bdd1bb08e63d8b4","delete":null}},"apiName":"televisions"},"landline_phones":{"availableVariants":{"v1.1.0":{"resourceName":"landline_phones","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/tyy-n0e.json?expiresAt=1634049351925&sig=33d81223512110e7664382f846769f94","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/tyy-n0e.json?expiresAt=1634049351925&sig=33d81223512110e7664382f846769f94","delete":null}},"apiName":"landline_phones"},"tv_video_accessories":{"availableVariants":{"v1.1.0":{"resourceName":"tv_video_accessories","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-ul6.json?expiresAt=1634049351926&sig=09f5393e912b0f117bb5879e43c4d20f","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-ul6.json?expiresAt=1634049351926&sig=09f5393e912b0f117bb5879e43c4d20f","delete":null}},"apiName":"tv_video_accessories"},"software":{"availableVariants":{"v1.1.0":{"resourceName":"software","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-5hp.json?expiresAt=1634049351926&sig=1e7ff35bf1f65ab6a37c9cb379daad50","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-5hp.json?expiresAt=1634049351926&sig=1e7ff35bf1f65ab6a37c9cb379daad50","delete":null}},"apiName":"software"},"computer_storage":{"availableVariants":{"v1.1.0":{"resourceName":"computer_storage","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-jdy.json?expiresAt=1634049351925&sig=d04370e5763c0596b9a5f819e14e53f3","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-jdy.json?expiresAt=1634049351925&sig=d04370e5763c0596b9a5f819e14e53f3","delete":null}},"apiName":"computer_storage"},"fragrances":{"availableVariants":{"v1.1.0":{"resourceName":"fragrances","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/t06-r3o.json?expiresAt=1634049351924&sig=dd80e4c0677def0b682742bb08d2939b","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/t06-r3o.json?expiresAt=1634049351924&sig=dd80e4c0677def0b682742bb08d2939b","delete":null}},"apiName":"fragrances"},"network_components":{"availableVariants":{"v1.1.0":{"resourceName":"network_components","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-70k.json?expiresAt=1634049351924&sig=98c0b4e3bd4b065eedf802c418d247e0","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-70k.json?expiresAt=1634049351924&sig=98c0b4e3bd4b065eedf802c418d247e0","delete":null}},"apiName":"network_components"},"e_learning":{"availableVariants":{"v1.1.0":{"resourceName":"e_learning","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/xfw.json?expiresAt=1634049351926&sig=0a0b12ce7a039268d65e95a23c271bae","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/xfw.json?expiresAt=1634049351926&sig=0a0b12ce7a039268d65e95a23c271bae","delete":null}},"apiName":"e_learning"},"video_players":{"availableVariants":{"v1.1.0":{"resourceName":"video_players","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-xdz.json?expiresAt=1634049351926&sig=27bd32a49adda7d8c668b7efaf8f73be","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-xdz.json?expiresAt=1634049351926&sig=27bd32a49adda7d8c668b7efaf8f73be","delete":null}},"apiName":"video_players"},"mens_clothing":{"availableVariants":{"v1.1.0":{"resourceName":"mens_clothing","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/2oq-s9b.json?expiresAt=1634049351925&sig=a8376e8ed18fc59293c86cf68bff1597","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/2oq-s9b.json?expiresAt=1634049351925&sig=a8376e8ed18fc59293c86cf68bff1597","delete":null}},"apiName":"mens_clothing"},"music_movies_posters":{"availableVariants":{"v1.1.0":{"resourceName":"music_movies_posters","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/4kt.json?expiresAt=1634049351926&sig=3b1a1c86dc0d9ee48fba459094c09bef","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/4kt.json?expiresAt=1634049351926&sig=3b1a1c86dc0d9ee48fba459094c09bef","delete":null}},"apiName":"music_movies_posters"},"furniture":{"availableVariants":{"v1.1.0":{"resourceName":"furniture","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/anx.json?expiresAt=1634049351927&sig=2999d2d78c1405b45829bd937e4943f2","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/anx.json?expiresAt=1634049351927&sig=2999d2d78c1405b45829bd937e4943f2","delete":null}},"apiName":"furniture"},"bags_wallets_belts":{"availableVariants":{"v1.1.0":{"resourceName":"bags_wallets_belts","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/reh.json?expiresAt=1634049351924&sig=04ed7c989b67197cd5f53182c5e00429","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/reh.json?expiresAt=1634049351924&sig=04ed7c989b67197cd5f53182c5e00429","delete":null}},"apiName":"bags_wallets_belts"},"mobiles":{"availableVariants":{"v1.1.0":{"resourceName":"mobiles","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/tyy-4io.json?expiresAt=1634049351925&sig=70ea02d9db9f415bb1f457c20cada368","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/tyy-4io.json?expiresAt=1634049351925&sig=70ea02d9db9f415bb1f457c20cada368","delete":null}},"apiName":"mobiles"},"kids_clothing":{"availableVariants":{"v1.1.0":{"resourceName":"kids_clothing","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/2oq-mpf.json?expiresAt=1634049351925&sig=f5fc3641d215a584fb571653d7c8c5b6","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/2oq-mpf.json?expiresAt=1634049351925&sig=f5fc3641d215a584fb571653d7c8c5b6","delete":null}},"apiName":"kids_clothing"},"kids_footwear":{"availableVariants":{"v1.1.0":{"resourceName":"kids_footwear","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/osp-mba.json?expiresAt=1634049351925&sig=98889d96c8c46fc4f913d2729488c903","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/osp-mba.json?expiresAt=1634049351925&sig=98889d96c8c46fc4f913d2729488c903","delete":null}},"apiName":"kids_footwear"},"pet_supplies":{"availableVariants":{"v1.1.0":{"resourceName":"pet_supplies","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/n2a.json?expiresAt=1634049351927&sig=ad90fd7143563bb7b0ce77559ddcab6b","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/n2a.json?expiresAt=1634049351927&sig=ad90fd7143563bb7b0ce77559ddcab6b","delete":null}},"apiName":"pet_supplies"},"mens_footwear":{"availableVariants":{"v1.1.0":{"resourceName":"mens_footwear","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/osp-cil.json?expiresAt=1634049351925&sig=5e770c6c4043d63dbe0df1ce87eff04b","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/osp-cil.json?expiresAt=1634049351925&sig=5e770c6c4043d63dbe0df1ce87eff04b","delete":null}},"apiName":"mens_footwear"},"air_coolers":{"availableVariants":{"v1.1.0":{"resourceName":"air_coolers","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/j9e-abm-52j.json?expiresAt=1634049351926&sig=a4b242d7e8ca6547aed18c6ece0e5968","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/j9e-abm-52j.json?expiresAt=1634049351926&sig=a4b242d7e8ca6547aed18c6ece0e5968","delete":null}},"apiName":"air_coolers"},"home_entertainment":{"availableVariants":{"v1.1.0":{"resourceName":"home_entertainment","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/ckf.json?expiresAt=1634049351926&sig=0c3d5fb881974f18e06b5f6c020ee983","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/ckf.json?expiresAt=1634049351926&sig=0c3d5fb881974f18e06b5f6c020ee983","delete":null}},"apiName":"home_entertainment"},"watches":{"availableVariants":{"v1.1.0":{"resourceName":"watches","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/r18.json?expiresAt=1634049351924&sig=bcfa66b99c55725e535651e973913fa4","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/r18.json?expiresAt=1634049351924&sig=bcfa66b99c55725e535651e973913fa4","delete":null}},"apiName":"watches"},"sunglasses":{"availableVariants":{"v1.1.0":{"resourceName":"sunglasses","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/26x.json?expiresAt=1634049351924&sig=2be154c221f92c7077dbcfa00ff5a8e0","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/26x.json?expiresAt=1634049351924&sig=2be154c221f92c7077dbcfa00ff5a8e0","delete":null}},"apiName":"sunglasses"},"eyewear":{"availableVariants":{"v1.1.0":{"resourceName":"eyewear","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/u73.json?expiresAt=1634049351927&sig=fd08e33aa904a40d1e43eb5fea50f56c","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/u73.json?expiresAt=1634049351927&sig=fd08e33aa904a40d1e43eb5fea50f56c","delete":null}},"apiName":"eyewear"},"computer_components":{"availableVariants":{"v1.1.0":{"resourceName":"computer_components","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-g0i.json?expiresAt=1634049351924&sig=92600afaae58296805cee1aa49704cf7","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-g0i.json?expiresAt=1634049351924&sig=92600afaae58296805cee1aa49704cf7","delete":null}},"apiName":"computer_components"},"laptop_accessories":{"availableVariants":{"v1.1.0":{"resourceName":"laptop_accessories","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-ai3.json?expiresAt=1634049351925&sig=be5b5728f1b5e68269632a564ef56f62","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-ai3.json?expiresAt=1634049351925&sig=be5b5728f1b5e68269632a564ef56f62","delete":null}},"apiName":"laptop_accessories"},"womens_clothing":{"availableVariants":{"v1.1.0":{"resourceName":"womens_clothing","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/2oq-c1r.json?expiresAt=1634049351925&sig=8c97099a5f6d020cceb84de26fd13167","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/2oq-c1r.json?expiresAt=1634049351925&sig=8c97099a5f6d020cceb84de26fd13167","delete":null}},"apiName":"womens_clothing"},"mobile_accessories":{"availableVariants":{"v1.1.0":{"resourceName":"mobile_accessories","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/tyy-4mr.json?expiresAt=1634049351925&sig=2c6faf78c912a133e7447da2d080c187","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/tyy-4mr.json?expiresAt=1634049351925&sig=2c6faf78c912a133e7447da2d080c187","delete":null}},"apiName":"mobile_accessories"},"camera_accessories":{"availableVariants":{"v1.1.0":{"resourceName":"camera_accessories","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/jek-6l2.json?expiresAt=1634049351924&sig=25c4372a8d485aa281d40c1bd604331e","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/jek-6l2.json?expiresAt=1634049351924&sig=25c4372a8d485aa281d40c1bd604331e","delete":null}},"apiName":"camera_accessories"},"air_conditioners":{"availableVariants":{"v1.1.0":{"resourceName":"air_conditioners","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/j9e-abm-c54.json?expiresAt=1634049351926&sig=9ede440769ba2608c0d6d92cb8054ac4","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/j9e-abm-c54.json?expiresAt=1634049351926&sig=9ede440769ba2608c0d6d92cb8054ac4","delete":null}},"apiName":"air_conditioners"},"luggage_travel":{"availableVariants":{"v1.1.0":{"resourceName":"luggage_travel","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/reh-plk.json?expiresAt=1634049351926&sig=3327a8583b7c5c6a79fdca4fc856db4f","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/reh-plk.json?expiresAt=1634049351926&sig=3327a8583b7c5c6a79fdca4fc856db4f","delete":null}},"apiName":"luggage_travel"},"automotive":{"availableVariants":{"v1.1.0":{"resourceName":"automotive","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/0hx.json?expiresAt=1634049351926&sig=a58c32313477fa5ce963e3b8e2d48b6b","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/0hx.json?expiresAt=1634049351926&sig=a58c32313477fa5ce963e3b8e2d48b6b","delete":null}},"apiName":"automotive"},"tablets":{"availableVariants":{"v1.1.0":{"resourceName":"tablets","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/tyy-hry.json?expiresAt=1634049351925&sig=f31d0621aa87983c06bed9fb1c803117","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/tyy-hry.json?expiresAt=1634049351925&sig=f31d0621aa87983c06bed9fb1c803117","delete":null}},"apiName":"tablets"},"refrigerator":{"availableVariants":{"v1.1.0":{"resourceName":"refrigerator","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/j9e-abm-hzg.json?expiresAt=1634049351926&sig=fb930680a812b5aae3800f92fbda4d39","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/j9e-abm-hzg.json?expiresAt=1634049351926&sig=fb930680a812b5aae3800f92fbda4d39","delete":null}},"apiName":"refrigerator"},"home_improvement_tools":{"availableVariants":{"v1.1.0":{"resourceName":"home_improvement_tools","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/amz.json?expiresAt=1634049351926&sig=3f575c7beade5b0587b6fcaa8aa880e4","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/amz.json?expiresAt=1634049351926&sig=3f575c7beade5b0587b6fcaa8aa880e4","delete":null}},"apiName":"home_improvement_tools"},"computer_peripherals":{"availableVariants":{"v1.1.0":{"resourceName":"computer_peripherals","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-tia.json?expiresAt=1634049351925&sig=6f55dd140580f1383a81b85ce11d8cd7","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-tia.json?expiresAt=1634049351925&sig=6f55dd140580f1383a81b85ce11d8cd7","delete":null}},"apiName":"computer_peripherals"},"stationery_office_supplies":{"availableVariants":{"v1.1.0":{"resourceName":"stationery_office_supplies","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/dgv.json?expiresAt=1634049351926&sig=91c2b1263ee63fc58ff45eb077208110","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/dgv.json?expiresAt=1634049351926&sig=91c2b1263ee63fc58ff45eb077208110","delete":null}},"apiName":"stationery_office_supplies"},"sports_fitness":{"availableVariants":{"v1.1.0":{"resourceName":"sports_fitness","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/dep.json?expiresAt=1634049351926&sig=ef091353a1b4b8b3e2be5d269c9ce88e","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/dep.json?expiresAt=1634049351926&sig=ef091353a1b4b8b3e2be5d269c9ce88e","delete":null}},"apiName":"sports_fitness"},"baby_care":{"availableVariants":{"v1.1.0":{"resourceName":"baby_care","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/kyh.json?expiresAt=1634049351924&sig=6f40ce8f87b8a4c389f4cbc6f7bc4682","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/kyh.json?expiresAt=1634049351924&sig=6f40ce8f87b8a4c389f4cbc6f7bc4682","delete":null}},"apiName":"baby_care"},"cameras":{"availableVariants":{"v1.1.0":{"resourceName":"cameras","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/jek-p31.json?expiresAt=1634049351924&sig=38266ae3155ca42a070524febfbd64f6","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/jek-p31.json?expiresAt=1634049351924&sig=38266ae3155ca42a070524febfbd64f6","delete":null}},"apiName":"cameras"},"wearable_smart_devices":{"availableVariants":{"v1.1.0":{"resourceName":"wearable_smart_devices","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/ajy.json?expiresAt=1634049351927&sig=d7293dda97abeed16d49757b2d7f533a","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/ajy.json?expiresAt=1634049351927&sig=d7293dda97abeed16d49757b2d7f533a","delete":null}},"apiName":"wearable_smart_devices"},"audio_players":{"availableVariants":{"v1.1.0":{"resourceName":"audio_players","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-ord.json?expiresAt=1634049351926&sig=505cad5b8249109109e4aeeb3d187037","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-ord.json?expiresAt=1634049351926&sig=505cad5b8249109109e4aeeb3d187037","delete":null}},"apiName":"audio_players"},"grooming_beauty_wellness":{"availableVariants":{"v1.1.0":{"resourceName":"grooming_beauty_wellness","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/t06.json?expiresAt=1634049351924&sig=b2925be596408437531f0cb5b59233e6","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/t06.json?expiresAt=1634049351924&sig=b2925be596408437531f0cb5b59233e6","delete":null}},"apiName":"grooming_beauty_wellness"},"tablet_accessories":{"availableVariants":{"v1.1.0":{"resourceName":"tablet_accessories","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/tyy-jgu.json?expiresAt=1634049351925&sig=5513567fc93e1afc1b89b7b1a2b8467b","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/tyy-jgu.json?expiresAt=1634049351925&sig=5513567fc93e1afc1b89b7b1a2b8467b","delete":null}},"apiName":"tablet_accessories"},"kitchen_appliances":{"availableVariants":{"v1.1.0":{"resourceName":"kitchen_appliances","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/j9e-m38.json?expiresAt=1634049351925&sig=1c92a6e0e406333f442c03240e90218c","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/j9e-m38.json?expiresAt=1634049351925&sig=1c92a6e0e406333f442c03240e90218c","delete":null}},"apiName":"kitchen_appliances"},"microwave_ovens":{"availableVariants":{"v1.1.0":{"resourceName":"microwave_ovens","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/j9e-m38-o49.json?expiresAt=1634049351926&sig=cc9a222cc380c6bdf13c4eebf406e380","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/j9e-m38-o49.json?expiresAt=1634049351926&sig=cc9a222cc380c6bdf13c4eebf406e380","delete":null}},"apiName":"microwave_ovens"},"laptops":{"availableVariants":{"v1.1.0":{"resourceName":"laptops","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-b5g.json?expiresAt=1634049351925&sig=9fef95a7a80eb83232e11c1c8d38190b","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-b5g.json?expiresAt=1634049351925&sig=9fef95a7a80eb83232e11c1c8d38190b","delete":null}},"apiName":"laptops"},"washing_machine":{"availableVariants":{"v1.1.0":{"resourceName":"washing_machine","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/j9e-abm-8qx.json?expiresAt=1634049351926&sig=bafff612502bf55eed5afc77da598be6","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/j9e-abm-8qx.json?expiresAt=1634049351926&sig=bafff612502bf55eed5afc77da598be6","delete":null}},"apiName":"washing_machine"},"gaming":{"availableVariants":{"v1.1.0":{"resourceName":"gaming","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/4rr.json?expiresAt=1634049351925&sig=baed34a340a067e052b1d22f8c49d2ff","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/4rr.json?expiresAt=1634049351925&sig=baed34a340a067e052b1d22f8c49d2ff","delete":null}},"apiName":"gaming"},"toys":{"availableVariants":{"v1.1.0":{"resourceName":"toys","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/mgl.json?expiresAt=1634049351924&sig=c5bbcb46894fef64b1f1ae98a7b07e5a","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/mgl.json?expiresAt=1634049351924&sig=c5bbcb46894fef64b1f1ae98a7b07e5a","delete":null}},"apiName":"toys"},"home_appliances":{"availableVariants":{"v1.1.0":{"resourceName":"home_appliances","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/j9e-abm.json?expiresAt=1634049351925&sig=97ed7bbaa824be898e7dc1155a143f26","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/j9e-abm.json?expiresAt=1634049351925&sig=97ed7bbaa824be898e7dc1155a143f26","delete":null}},"apiName":"home_appliances"},"home_decor_and_festive_needs":{"availableVariants":{"v1.1.0":{"resourceName":"home_decor_and_festive_needs","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/1m7.json?expiresAt=1634049351926&sig=e2294748a8bd5a8bbdd5a1376b157df2","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/1m7.json?expiresAt=1634049351926&sig=e2294748a8bd5a8bbdd5a1376b157df2","delete":null}},"apiName":"home_decor_and_festive_needs"},"home_and_kitchen_needs":{"availableVariants":{"v1.1.0":{"resourceName":"home_and_kitchen_needs","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/r4l.json?expiresAt=1634049351926&sig=7499ca42e25a76af509fea2506a3e1d7","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/r4l.json?expiresAt=1634049351926&sig=7499ca42e25a76af509fea2506a3e1d7","delete":null}},"apiName":"home_and_kitchen_needs"},"jewellery":{"availableVariants":{"v1.1.0":{"resourceName":"jewellery","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/mcr.json?expiresAt=1634049351926&sig=f4a4ca2de86b641469e895e99e2632a2","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/mcr.json?expiresAt=1634049351926&sig=f4a4ca2de86b641469e895e99e2632a2","delete":null}},"apiName":"jewellery"},"home_furnishing":{"availableVariants":{"v1.1.0":{"resourceName":"home_furnishing","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/vdm.json?expiresAt=1634049351925&sig=6e7e9c13f492b21e13586e82bdb164b9","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/vdm.json?expiresAt=1634049351925&sig=6e7e9c13f492b21e13586e82bdb164b9","delete":null}},"apiName":"home_furnishing"},"desktops":{"availableVariants":{"v1.1.0":{"resourceName":"desktops","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-igk.json?expiresAt=1634049351925&sig=b1e854d2b9a65274e6ea9ee5d19c82a4","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-igk.json?expiresAt=1634049351925&sig=b1e854d2b9a65274e6ea9ee5d19c82a4","delete":null}},"apiName":"desktops"},"womens_footwear":{"availableVariants":{"v1.1.0":{"resourceName":"womens_footwear","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/osp-iko.json?expiresAt=1634049351925&sig=184ed2c083c29ce0b205219f3e4b3d6f","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/osp-iko.json?expiresAt=1634049351925&sig=184ed2c083c29ce0b205219f3e4b3d6f","delete":null}},"apiName":"womens_footwear"},"household_supplies":{"availableVariants":{"v1.1.0":{"resourceName":"household_supplies","post":null,"put":null,"get":"https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/7ij.json?expiresAt=1634049351927&sig=9ebd93182daa7526d13496a1aff4685d","deltaGet":"https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/7ij.json?expiresAt=1634049351927&sig=9ebd93182daa7526d13496a1aff4685d","delete":null}},"apiName":"household_supplies"}}
+{"food_nutrition": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "food_nutrition",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/7jv.json?expiresAt=1634136679751&sig=cf09994f6e45cd35551fa84c38b2214d",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/7jv.json?expiresAt=1634136679751&sig=cf09994f6e45cd35551fa84c38b2214d",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "food_nutrition"
+                },
+                "televisions": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "televisions",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/ckf-czl.json?expiresAt=1634136679751&sig=ce3c9171905fcbe94bfd547cc37a828b",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/ckf-czl.json?expiresAt=1634136679751&sig=ce3c9171905fcbe94bfd547cc37a828b",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "televisions"
+                },
+                "landline_phones": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "landline_phones",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/tyy-n0e.json?expiresAt=1634136679750&sig=536097bbf61e510d29e628d9fba2c325",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/tyy-n0e.json?expiresAt=1634136679750&sig=536097bbf61e510d29e628d9fba2c325",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "landline_phones"
+                },
+                "tv_video_accessories": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "tv_video_accessories",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-ul6.json?expiresAt=1634136679751&sig=7d6437572777327af7323e0be579c0d9",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-ul6.json?expiresAt=1634136679751&sig=7d6437572777327af7323e0be579c0d9",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "tv_video_accessories"
+                },
+                "software": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "software",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-5hp.json?expiresAt=1634136679751&sig=379dbcdb026984b5425cfad6e6246f24",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-5hp.json?expiresAt=1634136679751&sig=379dbcdb026984b5425cfad6e6246f24",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "software"
+                },
+                "computer_storage": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "computer_storage",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-jdy.json?expiresAt=1634136679750&sig=dc27c1a66dc5c307a6345d63253c7f63",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-jdy.json?expiresAt=1634136679750&sig=dc27c1a66dc5c307a6345d63253c7f63",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "computer_storage"
+                },
+                "fragrances": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "fragrances",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/t06-r3o.json?expiresAt=1634136679749&sig=3e863027af004a44e3f8667ab559a975",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/t06-r3o.json?expiresAt=1634136679749&sig=3e863027af004a44e3f8667ab559a975",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "fragrances"
+                },
+                "network_components": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "network_components",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-70k.json?expiresAt=1634136679749&sig=7453d62da0d278e72dfe36883984e7f8",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-70k.json?expiresAt=1634136679750&sig=cd0a91830b52140e8a393559b6b5ed31",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "network_components"
+                },
+                "e_learning": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "e_learning",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/xfw.json?expiresAt=1634136679751&sig=0934336fab6c0a696b70e79210c89549",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/xfw.json?expiresAt=1634136679751&sig=0934336fab6c0a696b70e79210c89549",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "e_learning"
+                },
+                "video_players": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "video_players",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-xdz.json?expiresAt=1634136679751&sig=9a3f209b53a2a7b7e0c08402ee705d49",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-xdz.json?expiresAt=1634136679751&sig=9a3f209b53a2a7b7e0c08402ee705d49",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "video_players"
+                },
+                "mens_clothing": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "mens_clothing",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/2oq-s9b.json?expiresAt=1634136679750&sig=215072e999d35571e13d2dec42959e6e",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/2oq-s9b.json?expiresAt=1634136679750&sig=215072e999d35571e13d2dec42959e6e",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "mens_clothing"
+                },
+                "music_movies_posters": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "music_movies_posters",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/4kt.json?expiresAt=1634136679751&sig=7c5c9d473434564ad971f8988a6bf62f",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/4kt.json?expiresAt=1634136679751&sig=7c5c9d473434564ad971f8988a6bf62f",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "music_movies_posters"
+                },
+                "furniture": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "furniture",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/anx.json?expiresAt=1634136679751&sig=7ae8a5ed87c35f2f05615e3a05adb71b",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/anx.json?expiresAt=1634136679751&sig=7ae8a5ed87c35f2f05615e3a05adb71b",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "furniture"
+                },
+                "bags_wallets_belts": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "bags_wallets_belts",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/reh.json?expiresAt=1634136679749&sig=3d056119657e16be65d3212c28c896e5",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/reh.json?expiresAt=1634136679749&sig=3d056119657e16be65d3212c28c896e5",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "bags_wallets_belts"
+                },
+                "mobiles": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "mobiles",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/tyy-4io.json?expiresAt=1634136679750&sig=2ca26f447b11f0603f35e3595b0f1f88",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/tyy-4io.json?expiresAt=1634136679750&sig=2ca26f447b11f0603f35e3595b0f1f88",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "mobiles"
+                },
+                "kids_clothing": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "kids_clothing",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/2oq-mpf.json?expiresAt=1634136679750&sig=ebad4fa6dfdc2a5e4ffdb1ca86ce030c",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/2oq-mpf.json?expiresAt=1634136679750&sig=ebad4fa6dfdc2a5e4ffdb1ca86ce030c",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "kids_clothing"
+                },
+                "kids_footwear": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "kids_footwear",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/osp-mba.json?expiresAt=1634136679750&sig=13123406fb62d985124039e5ea8d9675",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/osp-mba.json?expiresAt=1634136679750&sig=13123406fb62d985124039e5ea8d9675",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "kids_footwear"
+                },
+                "pet_supplies": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "pet_supplies",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/n2a.json?expiresAt=1634136679751&sig=87d278aabcd6adf43e377a14458a51c9",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/n2a.json?expiresAt=1634136679751&sig=87d278aabcd6adf43e377a14458a51c9",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "pet_supplies"
+                },
+                "mens_footwear": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "mens_footwear",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/osp-cil.json?expiresAt=1634136679750&sig=047a9acc0b6a413b7f14506f04708f7e",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/osp-cil.json?expiresAt=1634136679750&sig=047a9acc0b6a413b7f14506f04708f7e",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "mens_footwear"
+                },
+                "air_coolers": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "air_coolers",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/j9e-abm-52j.json?expiresAt=1634136679751&sig=31a08d153ca59b28d4311a27c9bedd61",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/j9e-abm-52j.json?expiresAt=1634136679751&sig=31a08d153ca59b28d4311a27c9bedd61",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "air_coolers"
+                },
+                "home_entertainment": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "home_entertainment",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/ckf.json?expiresAt=1634136679751&sig=e59615ed3dc6cc06772022730fba0212",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/ckf.json?expiresAt=1634136679751&sig=e59615ed3dc6cc06772022730fba0212",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "home_entertainment"
+                },
+                "watches": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "watches",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/r18.json?expiresAt=1634136679749&sig=aa6e6b716526b3f00203100f77dae8e9",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/r18.json?expiresAt=1634136679749&sig=aa6e6b716526b3f00203100f77dae8e9",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "watches"
+                },
+                "sunglasses": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "sunglasses",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/26x.json?expiresAt=1634136679749&sig=032d094da0ff1db5c74b2bf960a73b1c",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/26x.json?expiresAt=1634136679749&sig=032d094da0ff1db5c74b2bf960a73b1c",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "sunglasses"
+                },
+                "eyewear": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "eyewear",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/u73.json?expiresAt=1634136679751&sig=86e8c312c3f5f2700445ff234da848e8",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/u73.json?expiresAt=1634136679751&sig=86e8c312c3f5f2700445ff234da848e8",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "eyewear"
+                },
+                "computer_components": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "computer_components",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-g0i.json?expiresAt=1634136679749&sig=cea6aaf0ececf473a33155cd69f9ad79",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-g0i.json?expiresAt=1634136679749&sig=cea6aaf0ececf473a33155cd69f9ad79",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "computer_components"
+                },
+                "laptop_accessories": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "laptop_accessories",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-ai3.json?expiresAt=1634136679750&sig=75850e3d5e00a7789dc6e0a37b946173",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-ai3.json?expiresAt=1634136679750&sig=75850e3d5e00a7789dc6e0a37b946173",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "laptop_accessories"
+                },
+                "womens_clothing": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "womens_clothing",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/2oq-c1r.json?expiresAt=1634136679750&sig=f6a062b992b2be757c435fb4dca98dee",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/2oq-c1r.json?expiresAt=1634136679750&sig=f6a062b992b2be757c435fb4dca98dee",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "womens_clothing"
+                },
+                "mobile_accessories": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "mobile_accessories",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/tyy-4mr.json?expiresAt=1634136679750&sig=e7e3a799c0c9d78e5ce42d96b1236cb9",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/tyy-4mr.json?expiresAt=1634136679750&sig=e7e3a799c0c9d78e5ce42d96b1236cb9",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "mobile_accessories"
+                },
+                "camera_accessories": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "camera_accessories",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/jek-6l2.json?expiresAt=1634136679749&sig=648351ed163ead1f7a600e5258804099",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/jek-6l2.json?expiresAt=1634136679749&sig=648351ed163ead1f7a600e5258804099",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "camera_accessories"
+                },
+                "air_conditioners": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "air_conditioners",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/j9e-abm-c54.json?expiresAt=1634136679751&sig=8abb7ee477e11e50d224cc285a9c276f",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/j9e-abm-c54.json?expiresAt=1634136679751&sig=8abb7ee477e11e50d224cc285a9c276f",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "air_conditioners"
+                },
+                "luggage_travel": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "luggage_travel",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/reh-plk.json?expiresAt=1634136679751&sig=45c267716ca259430d06fd4e451efab6",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/reh-plk.json?expiresAt=1634136679751&sig=45c267716ca259430d06fd4e451efab6",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "luggage_travel"
+                },
+                "automotive": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "automotive",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/0hx.json?expiresAt=1634136679751&sig=ad6ac82a9a48167886ed0d3470a2b9fd",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/0hx.json?expiresAt=1634136679751&sig=ad6ac82a9a48167886ed0d3470a2b9fd",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "automotive"
+                },
+                "tablets": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "tablets",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/tyy-hry.json?expiresAt=1634136679750&sig=dd1bb5be3ac046e093ebdeeb59ffe19b",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/tyy-hry.json?expiresAt=1634136679750&sig=dd1bb5be3ac046e093ebdeeb59ffe19b",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "tablets"
+                },
+                "refrigerator": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "refrigerator",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/j9e-abm-hzg.json?expiresAt=1634136679751&sig=a38f827aa22b7fb8221f88397a563afc",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/j9e-abm-hzg.json?expiresAt=1634136679751&sig=a38f827aa22b7fb8221f88397a563afc",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "refrigerator"
+                },
+                "home_improvement_tools": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "home_improvement_tools",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/amz.json?expiresAt=1634136679751&sig=d21bd5c2d77df85d34afed493beb1bdb",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/amz.json?expiresAt=1634136679751&sig=d21bd5c2d77df85d34afed493beb1bdb",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "home_improvement_tools"
+                },
+                "computer_peripherals": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "computer_peripherals",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-tia.json?expiresAt=1634136679750&sig=d0987dcde87db0c5a33a1c9b98960224",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-tia.json?expiresAt=1634136679750&sig=d0987dcde87db0c5a33a1c9b98960224",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "computer_peripherals"
+                },
+                "stationery_office_supplies": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "stationery_office_supplies",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/dgv.json?expiresAt=1634136679751&sig=d67d35b6c62df14a502a4af9b5211d9a",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/dgv.json?expiresAt=1634136679751&sig=d67d35b6c62df14a502a4af9b5211d9a",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "stationery_office_supplies"
+                },
+                "sports_fitness": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "sports_fitness",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/dep.json?expiresAt=1634136679751&sig=9c9786312a9696e8f1ffe77dbb44c9f3",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/dep.json?expiresAt=1634136679751&sig=9c9786312a9696e8f1ffe77dbb44c9f3",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "sports_fitness"
+                },
+                "baby_care": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "baby_care",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/kyh.json?expiresAt=1634136679749&sig=7609d900b59c89c4e7887a2f2d3b8d00",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/kyh.json?expiresAt=1634136679749&sig=7609d900b59c89c4e7887a2f2d3b8d00",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "baby_care"
+                },
+                "cameras": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "cameras",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/jek-p31.json?expiresAt=1634136679749&sig=ce932af8ab9a227cac6ca905f15b8cdd",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/jek-p31.json?expiresAt=1634136679749&sig=ce932af8ab9a227cac6ca905f15b8cdd",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "cameras"
+                },
+                "wearable_smart_devices": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "wearable_smart_devices",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/ajy.json?expiresAt=1634136679751&sig=eca6c6ca7272b1e53836dc3d79c3d056",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/ajy.json?expiresAt=1634136679751&sig=eca6c6ca7272b1e53836dc3d79c3d056",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "wearable_smart_devices"
+                },
+                "audio_players": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "audio_players",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-ord.json?expiresAt=1634136679751&sig=984b1ede2f32f3ab94d58813241ac423",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-ord.json?expiresAt=1634136679751&sig=984b1ede2f32f3ab94d58813241ac423",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "audio_players"
+                },
+                "grooming_beauty_wellness": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "grooming_beauty_wellness",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/t06.json?expiresAt=1634136679749&sig=64b827d6537578aa4cfb6378a35dbff5",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/t06.json?expiresAt=1634136679749&sig=64b827d6537578aa4cfb6378a35dbff5",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "grooming_beauty_wellness"
+                },
+                "tablet_accessories": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "tablet_accessories",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/tyy-jgu.json?expiresAt=1634136679750&sig=6e2a2a563af3d91b8cdd231337ffd188",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/tyy-jgu.json?expiresAt=1634136679750&sig=6e2a2a563af3d91b8cdd231337ffd188",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "tablet_accessories"
+                },
+                "kitchen_appliances": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "kitchen_appliances",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/j9e-m38.json?expiresAt=1634136679750&sig=369a20c54125d6caf41008bcc4219789",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/j9e-m38.json?expiresAt=1634136679750&sig=369a20c54125d6caf41008bcc4219789",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "kitchen_appliances"
+                },
+                "microwave_ovens": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "microwave_ovens",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/j9e-m38-o49.json?expiresAt=1634136679751&sig=c384f35410c82448e79a06f2b7494270",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/j9e-m38-o49.json?expiresAt=1634136679751&sig=c384f35410c82448e79a06f2b7494270",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "microwave_ovens"
+                },
+                "laptops": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "laptops",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-b5g.json?expiresAt=1634136679750&sig=c7f1da9e64b4dd49f870a220a308f9db",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-b5g.json?expiresAt=1634136679750&sig=c7f1da9e64b4dd49f870a220a308f9db",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "laptops"
+                },
+                "washing_machine": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "washing_machine",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/j9e-abm-8qx.json?expiresAt=1634136679751&sig=1674e6d56147a7f8598cfe833a8cca1d",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/j9e-abm-8qx.json?expiresAt=1634136679751&sig=1674e6d56147a7f8598cfe833a8cca1d",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "washing_machine"
+                },
+                "gaming": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "gaming",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/4rr.json?expiresAt=1634136679750&sig=cd511a14f7271ff985e6ba6d0cd8617c",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/4rr.json?expiresAt=1634136679750&sig=cd511a14f7271ff985e6ba6d0cd8617c",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "gaming"
+                },
+                "toys": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "toys",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/mgl.json?expiresAt=1634136679749&sig=1ead07cf18fe921ffbf49b839877df78",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/mgl.json?expiresAt=1634136679749&sig=1ead07cf18fe921ffbf49b839877df78",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "toys"
+                },
+                "home_appliances": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "home_appliances",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/j9e-abm.json?expiresAt=1634136679750&sig=549d8ad83126451b59cc9b9353d6948a",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/j9e-abm.json?expiresAt=1634136679750&sig=549d8ad83126451b59cc9b9353d6948a",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "home_appliances"
+                },
+                "home_decor_and_festive_needs": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "home_decor_and_festive_needs",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/1m7.json?expiresAt=1634136679751&sig=9d99253784d202f3ea6857f4afdde13b",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/1m7.json?expiresAt=1634136679751&sig=9d99253784d202f3ea6857f4afdde13b",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "home_decor_and_festive_needs"
+                },
+                "home_and_kitchen_needs": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "home_and_kitchen_needs",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/r4l.json?expiresAt=1634136679751&sig=c105cf087ef462720d4639fb4dd899c4",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/r4l.json?expiresAt=1634136679751&sig=c105cf087ef462720d4639fb4dd899c4",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "home_and_kitchen_needs"
+                },
+                "jewellery": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "jewellery",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/mcr.json?expiresAt=1634136679751&sig=52b29d3fb8145335159277804a53f2f6",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/mcr.json?expiresAt=1634136679751&sig=52b29d3fb8145335159277804a53f2f6",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "jewellery"
+                },
+                "home_furnishing": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "home_furnishing",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/vdm.json?expiresAt=1634136679750&sig=0faf79b071d22b471e1f3ea3fd04849b",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/vdm.json?expiresAt=1634136679750&sig=0faf79b071d22b471e1f3ea3fd04849b",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "home_furnishing"
+                },
+                "desktops": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "desktops",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/6bo-igk.json?expiresAt=1634136679750&sig=c4e9bc4f592754c1ebbbf437e1a6ad66",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/6bo-igk.json?expiresAt=1634136679750&sig=c4e9bc4f592754c1ebbbf437e1a6ad66",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "desktops"
+                },
+                "womens_footwear": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "womens_footwear",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/osp-iko.json?expiresAt=1634136679750&sig=fd7f788d81cf40a90758c586a09913fc",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/osp-iko.json?expiresAt=1634136679750&sig=fd7f788d81cf40a90758c586a09913fc",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "womens_footwear"
+                },
+                "household_supplies": {
+                    "availableVariants": {
+                        "v1.1.0": {
+                            "resourceName": "household_supplies",
+                            "put": null,
+                            "post": null,
+                            "get": "https://affiliate-api.flipkart.net/affiliate/1.0/feeds/onlinesho41/category/7ij.json?expiresAt=1634136679751&sig=aa69902aa9b54885b654cb79186057f4",
+                            "deltaGet": "https://affiliate-api.flipkart.net/affiliate/1.0/deltaFeeds/onlinesho41/category/7ij.json?expiresAt=1634136679751&sig=aa69902aa9b54885b654cb79186057f4",
+                            "delete": null
+                        }
+                    },
+                    "apiName": "household_supplies"
+                }
+            }
+     
