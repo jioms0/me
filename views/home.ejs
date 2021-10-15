@@ -62,6 +62,7 @@
         <h2 class="h1">Today Deals</h2>
          </header>
          <% if(Object.keys(home_Sldr).length > 0) {%>
+
          <% if(home_Sldr.length > 8) { %>
        
       <div class="mbl_row nv_btn owl-carousel">
@@ -109,7 +110,7 @@
 
   </div>
   <% } %>
-  <% }); %>
+
 
 
 <% }else{ %>
@@ -131,101 +132,102 @@
   </div>
 
 
-
-
   <% if(Object.keys(mbl_Sldr).length > 0) {%>
-  <section class="padd-40 fadeIn animated" data-animation="fadeIn">
-    <div class="container">
-      <header>
-        <h2 class="h1">Furniture</h2>
-      </header>
-      <div class="mbl_row nv_btn owl-carousel">
-      
-        <%  mbl_Sldr.forEach(function(mblsdr){ %>
-          <div class="item">
-            <div class="avs_vt_prdt_set "> 
-              <img class="avs_vt_prdt_img" src="<%= mblsdr.productBaseInfoV1.imageUrls['200x200'] %>">
-              <div class="avs_vt_prdt_rht">
-                <div class="avs_vt_prdt_rht_h1"><%= mblsdr.productBaseInfoV1.title %></div>
-                <div class="avs_vt_prdt_rht_h3"><%= mblsdr.productBaseInfoV1.productBrand %></div>
-                <div class="avs_vt_prdt_rht_btm">
-                  <div class="avs_vt_prdt_rht_prc" style="font-size: 15px;">Rs. <%= mblsdr.productBaseInfoV1.flipkartSpecialPrice.amount %></div>
-                  <a class="avs_vt_prdt_rht_btn" href="<%= mblsdr.productBaseInfoV1.productUrl %>" target="_blank">
-                  <div class="hid">Buy Now</div>
-                  <i class="ec ec-add-to-cart"></i></a> </div>
+    <section class="padd-40 fadeIn animated" data-animation="fadeIn">
+      <div class="container">
+        <header>
+          <h2 class="h1">Furniture</h2>
+        </header>
+        <div class="mbl_row nv_btn owl-carousel">
+        
+          <%  mbl_Sldr.forEach(function(mblsdr){ %>
+            <div class="item">
+              <div class="avs_vt_prdt_set "> 
+                <img class="avs_vt_prdt_img" src="<%= mblsdr.productBaseInfoV1.imageUrls['200x200'] %>">
+                <div class="avs_vt_prdt_rht">
+                  <div class="avs_vt_prdt_rht_h1"><%= mblsdr.productBaseInfoV1.title %></div>
+                  <div class="avs_vt_prdt_rht_h3"><%= mblsdr.productBaseInfoV1.productBrand %></div>
+                  <div class="avs_vt_prdt_rht_btm">
+                    <div class="avs_vt_prdt_rht_prc" style="font-size: 15px;">Rs. <%= mblsdr.productBaseInfoV1.flipkartSpecialPrice.amount %></div>
+                    <a class="avs_vt_prdt_rht_btn" href="<%= mblsdr.productBaseInfoV1.productUrl %>" target="_blank">
+                    <div class="hid">Buy Now</div>
+                    <i class="ec ec-add-to-cart"></i></a> </div>
+                </div>
               </div>
             </div>
-          </div>
-          <%  }) %>
-
-
-
-
-      </div>
-    </div>
-  </section>
-
-  <% }); %>
-
-
-  <% }else{ %>
-  <h2>Kindly reload to view menu</h2>
-  <% }%>
-
-
-
-  <% if(Object.keys(today_offer).length > 0) {%>
-
-<% if(today_offer.length > 8) { %>
-
-  <section class="padd-40 fadeIn animated" data-animation="fadeIn" style="background-color: #f9f9f9">
-    <div class="container">
-      <header>
-        <h2 class="h1">Best Sellers</h2>
-       </header>
-      <div id="home-v1-product-cards-careousel">
-<% console.log(today_offer.length) %>
-   <%  for (j=8; j< today_offer.length; j++){ %>
-     
-          <a href="<%= today_offer[j].url %>" target="_blank">
-        <div class="avs_hs_prdt_fst_set">
-          <div class="avs_hs_prdt_set "> <img class="avs_hs_prdt_img" src="<%= today_offer[j].imageUrls[2].url %>">
-            <div class="avs_hs_prdt_rht">
-              <div class="avs_hs_prdt_rht_h2"><%= today_offer[j].title %></div>
-              <div class="avs_hs_prdt_rht_h1"><%= today_offer[j].name %></div>
-              <div class="avs_hs_prdt_rht_h3"><%= today_offer[j].description %></div>
-              <div class="avs_hs_prdt_rht_btm">
-             
-                <a href="<%= today_offer[j].url %>" class="avs_hs_prdt_rht_btn" target="_blank">Buy Now <i class="ec ec-add-to-cart"></i></a>
-               </div>
-            </div>
-          </div>
-          </div>
-        </a>
-<% } %>
-
-
-
-
+            <%  }) %>
+  
+  
+  
+  
         </div>
       </div>
-      <!-- #home-v1-product-cards-careousel --> 
-    </div>
-  </section>
+    </section>
+  
 
-<% } else {%>
-  <h1>.</h1>
+  
+  
+    <% }else{ %>
+    <h2>Kindly reload to view menu</h2>
+    <% }%>
+  
+  
+  
+    <% if(Object.keys(today_offer).length > 0) {%>
+  
+  <% if(today_offer.length > 8) { %>
+  
+    <section class="padd-40 fadeIn animated" data-animation="fadeIn" style="background-color: #f9f9f9">
+      <div class="container">
+        <header>
+          <h2 class="h1">Best Sellers</h2>
+         </header>
+        <div id="home-v1-product-cards-careousel">
+  <% console.log(today_offer.length) %>
+
+     <%  for (j=8; j< today_offer.length; j++){ %>
+       
+            <a href="<%= today_offer[j].url %>" target="_blank">
+          <div class="avs_hs_prdt_fst_set">
+            <div class="avs_hs_prdt_set "> <img class="avs_hs_prdt_img" src="<%= today_offer[j].imageUrls[2].url %>">
+              <div class="avs_hs_prdt_rht">
+                <div class="avs_hs_prdt_rht_h2"><%= today_offer[j].title %></div>
+                <div class="avs_hs_prdt_rht_h1"><%= today_offer[j].name %></div>
+                <div class="avs_hs_prdt_rht_h3"><%= today_offer[j].description %></div>
+                <div class="avs_hs_prdt_rht_btm">
+               
+                  <a href="<%= today_offer[j].url %>" class="avs_hs_prdt_rht_btn" target="_blank">Buy Now <i class="ec ec-add-to-cart"></i></a>
+                 </div>
+              </div>
+            </div>
+            </div>
+          </a>
   <% } %>
+  
+  
+  
+  
+          </div>
+        </div>
+        <!-- #home-v1-product-cards-careousel --> 
+      </div>
+    </section>
+  
+  <% } else {%>
+    <h1>.</h1>
+    <% } %>
+  
 
-  <% }); %>
-
-
-  <% }else{ %>
-  <h2>Kindly reload to view menu</h2>
-  <% }%>
-
-
-
+  
+  
+    <% }else{ %>
+    <h2>Kindly reload to view menu</h2>
+    <% }%>
+  
+  
+  
+  
+  
 
 
   <%- include ('partial/footer') %>
