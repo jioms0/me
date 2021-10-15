@@ -29,6 +29,45 @@ var options = {
 
 
 var whlmenudata;
+(async()=>{
+  
+  const menudataclc = async() => {
+let menusdata, furnituredata, offerdata;
+try{
+  menusdata =  await axios.get("https://affiliate-api.flipkart.net/affiliate/api/onlinesho41.json",options);
+  offerdata = await axios.get("https://affiliate-api.flipkart.net/affiliate/offers/v1/all/json",options);
+  furnituredata = await axios.get(menusdata.data.apiGroups.affiliate.apiListings.furniture.availableVariants["v1.1.0"].get, options);
+}catch(err){
+  console.log(err);
+}
+return [menusdata, offerdata, furnituredata];
+  };
+
+
+  const menudataout = await menudataclc();
+  menu_data= JSON.stringify(menudataout[0].data.apiGroups.affiliate.apiListings);
+  home_data= JSON.stringify(menudataout[1].data.allOffersList);
+  product_data= JSON.stringify(menudataout[2].data.products);
+
+var tim = new Date();
+
+console.log(tim.getDate()," : ",tim.getHours()," : ", tim.getMinutes()," : ", tim.getSeconds());
+
+    fs.writeFile('menudata.json', menu_data, function (err) {
+      if (err) throw err;
+      console.log('menu_data Saved!!!!!!!!!!!!!!!!');
+    });
+    fs.writeFile('offerhome.json', home_data, function (err) {
+      if (err) throw err;
+      console.log('offerhome Saved!!!!!!!!!!!!!!!!');
+    });
+    fs.writeFile('productdata.json', product_data, function (err) {
+      if (err) throw err;
+      console.log('productdata Saved!!!!!!!!!!!!!!!!');
+    });
+    console.log(".........completed.................");
+})();
+
 
 setInterval(function(){ 
 (async()=>{
@@ -77,7 +116,7 @@ console.log(tim.getDate()," : ",tim.getHours()," : ", tim.getMinutes()," : ", ti
 
 
 
-}, 2000);
+}, 60000);
 
 
 
