@@ -123,7 +123,7 @@ app.get("/", function(req, res){
 
 
 
-app.get(/.*product*/, function(req, res){
+app.get(/.*productss*/, function(req, res){
 
     var urlpg= req.originalUrl.split("/product/")[1];
     urlpg = __dirname+"/datas/"+urlpg+".json";
