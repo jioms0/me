@@ -4,16 +4,7 @@
     var scount=0, ecount=0;
     $(window).load(function(){
 
-        if($(".mnicls").innerHTML() = "Kindly reload to view menu"){
-            location.reload(true);
-        }else{}
-
-
-
-
-
-
-
+     
         var total_data = $(".page_datas").text();
         total_data = JSON.parse(total_data);
 
