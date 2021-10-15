@@ -96,7 +96,7 @@ whlmenudata = JSON.parse(fs.readFileSync('menudata.json', 'utf8'));
 
 
 app.get("/", function(req, res){
-  menu_data = whlmenudata;
+  menu_data = JSON.parse(fs.readFileSync('menudata.json', 'utf8'));
   home_data = JSON.parse(fs.readFileSync('offerhome.json', 'utf8'));
   mbl_data = JSON.parse(fs.readFileSync('productdata.json', 'utf8'));
   today_off = JSON.parse(fs.readFileSync('offerhome.json', 'utf8'));
