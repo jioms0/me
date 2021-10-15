@@ -136,7 +136,7 @@ $('.mbl_row').owlCarousel({
 	 navText:["",""],
     responsive:{
         0:{
-            items:1.4,
+            items:2.2,
             nav:true,
 			margin:0,
 			dots:false
