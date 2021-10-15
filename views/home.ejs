@@ -1,4 +1,4 @@
-<%- include ('partial/header')%>
+ <%- include ('partial/header')%>
 
 <div class="home-v1-slider" > 
     <!-- ========================================== SECTION – HERO : END========================================= -->
@@ -61,7 +61,7 @@
       <header>
         <h2 class="h1">Today Deals</h2>
          </header>
-
+         <% if(Object.keys(home_Sldr).length > 0) {%>
          <% if(home_Sldr.length > 8) { %>
        
       <div class="mbl_row nv_btn owl-carousel">
@@ -109,7 +109,12 @@
 
   </div>
   <% } %>
+  <% }); %>
 
+
+<% }else{ %>
+<h2>Kindly reload to view menu</h2>
+<% }%>
 
     <hr>
   
@@ -124,6 +129,11 @@
       </div>
     </div>
   </div>
+
+
+
+
+  <% if(Object.keys(mbl_Sldr).length > 0) {%>
   <section class="padd-40 fadeIn animated" data-animation="fadeIn">
     <div class="container">
       <header>
@@ -154,6 +164,17 @@
       </div>
     </div>
   </section>
+
+  <% }); %>
+
+
+  <% }else{ %>
+  <h2>Kindly reload to view menu</h2>
+  <% }%>
+
+
+
+  <% if(Object.keys(today_offer).length > 0) {%>
 
 <% if(today_offer.length > 8) { %>
 
@@ -195,4 +216,16 @@
 <% } else {%>
   <h1>.</h1>
   <% } %>
+
+  <% }); %>
+
+
+  <% }else{ %>
+  <h2>Kindly reload to view menu</h2>
+  <% }%>
+
+
+
+
+
   <%- include ('partial/footer') %>
