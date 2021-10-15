@@ -77,6 +77,7 @@
                 <div class="avs_tp_srch_set"><input type="text" id="flp_search_bx" placeholder="i wanna buy...." class="avs_tp_srch_txtbx">
                   <a href="" class="avs_tp_srch_btn ld"><i class="fal fa-search"></i></a></div>
                   <div class="avs_tp_big_mnu">
+<% if(Object.keys(menu_dat).length) > 0%>
                     <% Object.keys(menu_dat).forEach(function(apiCat, index) { %>
    
 
@@ -85,6 +86,12 @@
                   
                   
                           <% }); %>
+
+
+<% } else {%>
+<h2>Kindly reload to view menu</h2>
+<% }%>
+
                 </div>
                 </div>
                 </div>
