@@ -168,6 +168,7 @@ app.get(/.*category*/, function(req, res){
        const globalData = await asyncExample();
       menu_data = whlmenudata;
      //  menu_data= globalData[0].data.apiGroups.affiliate.apiListings;
+     console.log(globalData[1]);
        prdt_data= globalData[1].data;
 
 
