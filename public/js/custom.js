@@ -5,7 +5,7 @@
     $(window).load(function(){
 
         if($(".mnicls").innerHTML() = "Kindly reload to view menu"){
-            location.reload();
+            location.reload(true);
         }else{}
 
 
