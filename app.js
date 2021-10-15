@@ -81,8 +81,6 @@ console.log(tim.getDate()," : ",tim.getHours()," : ", tim.getMinutes()," : ", ti
 
 
 
-whlmenudata = JSON.parse(fs.readFileSync('menudata.json', 'utf8'));
-
 
 
 
@@ -166,7 +164,7 @@ app.get(/.*category*/, function(req, res){
       
         //Save response on a variable
        const globalData = await asyncExample();
-      menu_data = whlmenudata;
+       menu_data = JSON.parse(fs.readFileSync('menudata.json', 'utf8'));
      //  menu_data= globalData[0].data.apiGroups.affiliate.apiListings;
      console.log(globalData[1]);
        prdt_data= globalData[1].data;
@@ -208,7 +206,7 @@ app.get(/.*search*/, function(req, res){
     
       //Save response on a variable
      const globalData = await asyncExample();
-    menu_data = whlmenudata;
+     menu_data = JSON.parse(fs.readFileSync('menudata.json', 'utf8'));
     // menu_data= globalData[0].data.apiGroups.affiliate.apiListings;
      prdt_data= globalData[1].data;
 
